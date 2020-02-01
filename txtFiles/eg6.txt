@@ -1,0 +1,106 @@
+print ""
+print("credo")
+raw_input
+raw_input()
+input()
+10
+10/20
+10//20
+print
+help(pritn)
+help(print)
+pprint
+import pprint
+dir(pprint)
+help(print)
+print "1"
+print("1", "2", "3")
+print("1", "2", "3", sep=",")
+print("1", "2", "3", sep="|")
+a = [1,2,3,4,5]
+"".join
+"".join(a)
+"".join(a)a
+a
+"".join(a)
+"".join([i for i in a])
+"".join([str(i) for i in a])
+s = [str(i) for i in a]
+s
+a
+"".join(a)
+"".join(s)
+"|".join(s)
+",".join(s)
+a = [
+1
+,
+2,
+3
+,
+4
+]
+s = "a
+s = "a \
+end"
+s
+s = """a 
+how are you"""
+s
+v = 1
+v=1
+v = 1
+V
+raw_input
+a = input("Enter your key:")
+y
+a == 'Y'
+a == 'y'
+a.lower() == 'y'
+a = input("Enter your key:")
+Y
+a
+a.lower() == 'y'
+10/2
+1/2
+1//2
+print("1")
+print ("1")
+print "1"
+a = 10
+A
+B = 20
+b
+print = 1
+if = 1
+If = 1
+printt()
+print()
+print(1)
+a = 10
+a = 10;
+a = 10;b=9
+a = 10
+l = [
+1,
+2,
+3
+]
+l
+a = 100
+a
+a == 200
+c == 200
+a == 200
+a == 100
+a > 50
+a < 50
+a == None
+None == ''
+None == 
+None == 0
+class = 1
+False = 1
+True = 1
+None = 1
+import readline;readline.write_history_file('/home/mohideen/Desktop/pyScript/eg6.txt')

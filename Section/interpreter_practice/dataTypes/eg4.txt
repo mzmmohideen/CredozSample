@@ -1,0 +1,140 @@
+2**2
+2**3
+2*2
+2*2*2
+2*3*2
+2**3*2
+2*3*2
+2^2
+2^1
+2^3
+2^^3
+2^3
+2^1
+2^2
+2^4
+2^6
+range(10)
+l = range(10)
+lk
+l
+l[0]
+l[1]
+l[4]
+l = range(10, 21)
+l
+l[4]
+l[4:]
+l[4::]
+l[4::1]
+l[4::2]
+l[4::3]
+l = range(10, 51, 5)
+l
+help(range)
+l = range(10)
+l
+l = range(10, 20)
+l
+l = range(10, 20, 5)
+l
+l = range(10, 21, 5)
+l
+l = range(10, 51, 5)
+l
+l[1]
+l[1:]
+l
+l[1:5]
+l[5:]
+l[0:5]
+l[:5]
+l[2:5]
+l
+l[2:5]
+l[2:]
+l[2::]
+l[2::2]
+l[2::5]
+l[2::-1]
+l[-1]
+l
+l[-1]
+l[-1:]
+l[-1:-2]
+l[-5]
+l[-1:-5]
+l[-1:-5:-1]
+l[-1:-5:1]
+l[-1:-5:-2]
+Python 2.7.12 (default, Nov 12 2018, 14:36:49) 
+[GCC 5.4.0 20160609] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> l = xrange(10, 20)
+>>> l
+xrange(10, 20)
+>>> l
+xrange(10, 20)
+>>> k = range(10, 20)
+>>> l
+xrange(10, 20)
+>>> k
+[10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+>>> for i in l:
+...   print i
+... 
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+>>> for i in k:
+...   print i
+... 
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+>>> import sys
+>>> sys.getsizeof
+<built-in function getsizeof>
+>>> sys.getsizeof(l)
+40
+>>> sys.getsizeof(k)
+152
+>>> l
+xrange(10, 20)
+>>> k
+[10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+>>> k = range(10, 20)
+>>> l = xrange(10, 20)
+>>> k
+[10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+>>> l
+xrange(10, 20)
+>>> help(range)
+>>> help(xrange)
+>>> sys.getsizeof(l)
+40
+>>> sys.getsizeof(k)
+152
+>>> 
+>>> readline.write_history_file('/home/ahj/history')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'readline' is not defined
+>>> import readline
+>>> readline.write_history_file('/home/mohideen/Desktop/pyScript/eg2.txt')
+import readline
+readline.write_history_file('/home/mohideen/Desktop/pyScript/eg4.txt')

@@ -1,0 +1,258 @@
+def a():
+  pass
+a(1)
+def sum(a, b):
+  return a+b
+sum(10, 20)
+a = 10
+b = 20
+a
+b
+sum(a, b)
+sum(a, b, c)
+sum(a, b, 'c')
+def sum(a=10, b=20):
+  return a+b
+sum()
+sum(20)
+sum(b=40)
+def sum(a, b=20):
+  return a+b
+sum(20)
+def sum(a=30, b):
+  return a+b
+sum(20)
+del sum
+sum(20)
+def sum(a=30, b):
+  return a+b
+sum(20)
+def sum(*a):
+del su,
+del sum
+def add(*a):
+  return sum(a)
+1add(10, 20, 30, 40, 50)
+help('sum')
+sum(10)
+sum([10])
+sum([10, 20])
+add(10, 20, 30, 40, 50)
+def add(*a, **b):
+  print 'a', a, 'b', b
+add(10, 20, 30, 40, 50)
+add()
+add(c=10, d=20)
+add(10, 20, 30, c=10, d=20)
+def add(c=20, d=30, *a, **b):
+  print 'a', a, 'b', b, 'c', c, 'd', d
+add(10, 20, 30, c=10, d=20)
+add(c=10, d=20, 10, 20, 30)
+def add(c, d=30, *a, **b):
+  print 'a', a, 'b', b, 'c', c, 'd', d
+add(c=10, d=20, 10, 20, 30)
+def add(c, d, *a, **b):
+  print 'a', a, 'b', b, 'c', c, 'd', d
+add(c=10, d=20, 10, 20, 30)
+def add(c, d, *a, **b):
+  print 'a', a, 'b', b, 'c', c, 'd', d
+add(10, 20, 30)
+add(d=10, 20, 30)
+def add(a, *b, **k):
+  print 'a', a, 'b', b, 'k', k
+add(a=10, b=20, c=30)
+add(a=10, 20, b=20, c=30)
+add(a=10, 10, b=20, c=30)
+add(a=10, b=20, c=30)
+def add(a=20, b=30, *c, *d):
+def add(a=20, b=30, *c, **d):
+  print 'a', a, 'b', b, 'c', c, 'd', d
+add(b=10, a=20, name='credo', location='chennai')
+def add(a, b, *c, **d):
+  print 'a', a, 'b', b, 'c', c, 'd', d
+add(10, 20, 30, 40, )
+add(10, 20, 30, name='credo', location='chennai')
+lambda
+Lambda
+lambda
+Lambda
+help('lambda')
+lambda : 5
+def a():
+  return 5
+b = lambda : 5
+b()
+a()
+b = lambda x: x*x
+b()
+b(10)
+map
+help(map)
+for i in range(10):
+  b(i)
+map(b, range(10))
+help(map)
+def mapping(func, seq):
+  return [i for i in seq]
+mapping(1, 'credo')
+def mapping(func, seq):
+  return [func(i) for i in seq]
+def s(i):
+  return i.upper()
+mapping(s, 'credo')
+mapping(1, 'credo')
+def mapping(func, seq):
+  print 'func', func
+  return [i for i in seq]
+mapping(1, 'credo')
+def mapping(func, seq):
+  print 'func', func
+  return [func(i) for i in seq]
+mapping(s, 'credo')
+mapping(1, 'credo')
+1('c')
+map(lambda x: x.upper(), 'credo')
+map(lambda x: x*x, range(10))
+map(lambda x: x**x, range(10))
+5*5*5*5*5
+map(lambda x: x**3, range(10))
+filter
+help(filter)
+[i.upper() for i in range(10)]
+[i*i for i in range(10)]
+[i*i for i in range(10) if i > 5]
+filter(lambda x: x%2!=0, range(10))
+[i for i in range(10) if i%2 !=0 ]
+map(lambda x: x%2!=0, range(10))
+filter(lambda x: x%2!=0, range(10))
+filter(lambda x: x*x, range(10))
+filter(lambda x: x+1, range(10))
+help(reduce)
+reduce(lambda x,y: x+y, range(10))
+def red(x, y):
+  print 'x', x, 'y', y
+reduce(red, range(10))
+def red(x, y):
+  print 'x', x, 'y', y
+  return x+y
+reduce(red, range(10))
+def s():
+  return  5
+s
+def p():
+  yield 5
+p
+p()
+s()
+xrange
+xrange(10)
+a = 1
+def sum():
+  print a
+  while a:
+def add():
+  while a:
+    print a
+    a+=1
+   
+add()
+a
+def add():
+  a = 1
+  while a:
+    print a
+    a+=1
+add()
+def add():
+  a = 1
+  while a:
+    print a
+    a+=1
+    if a>1000:
+      return None
+add()
+def add():
+  a = 1
+  while a:
+    print a
+    a+=1
+    yield a
+add()
+s = add()
+s
+dir(s)
+s.next()
+def add():
+  a = 1
+  while a:
+    a+=1
+    yield a
+s = add()
+s
+s.next()
+for i in s:
+  print i
+for i in s:
+s.next()
+def iter():
+  for i in range(100):
+    yield i
+s = iter()
+s
+s.next()
+for i in s:
+  print i
+s.next()
+for i in s:
+  print i
+s
+def iter():
+  for i in range(10):
+    return i
+iter()
+def iter():
+  for i in range(10):
+    yield i
+s = iter()
+s
+s.next()
+for i in s:
+  print i
+s.next()
+s = iter()
+s.next()
+for i in s:
+  print i
+for i in s:
+  print i
+s.next()
+def powoftwo(n):
+  return n**2
+powoftwo(2)
+def length(seq):
+  a = 0
+  for i in seq:
+    a+=1
+  return a
+length('credo')
+len('credo')
+a = (i for i in range(10))
+a
+dir(a)
+a.next()
+for i in a:
+  print i
+a.next()
+for i in a:
+  print i
+def (a,b):
+def add(a,b):
+  return a+b
+add(10, 20)
+add(*[10, 20])
+add(**[10, 20])
+add(**{10, 20})
+add(**{'c':10, 'd':20})
+add(**{'a':10, 'b':20})
+import readline
+readline.write_history_file('/home/mohideen/Desktop/pyScript/txtFiles/func20190626.txt')

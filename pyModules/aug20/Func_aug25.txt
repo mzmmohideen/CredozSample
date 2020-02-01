@@ -1,0 +1,142 @@
+def sample():
+  pass
+sample()
+def sample():
+  print()
+def sample():
+  print("hello world")
+sample()
+def sample():
+  print("hello world")
+def squre(n):
+  print(n*n)
+squre(10)
+s = squre(10)
+s
+def squre(n):
+  print(n*n)
+  return n*n
+s = squre(10)
+s
+l = [1,2,34,5,7]
+max
+max(l)
+def maxi(i):
+  out = None
+def maxi(i):
+  out = None
+  for v in i:
+    if v > out:
+      out = v
+  return out
+maxi(l)
+max(l)
+dir(__builtins__)
+1 and 2
+1 or 2
+1 and 3
+0 and 3
+all
+all(l)
+l
+all([1,2,3,4])
+all([1,2,3,4, 0])
+all(['', 1,2,3,4])
+all([-1,2,3,4])
+1 or 2
+0 or 2
+'' or 'sudharshan'
+'sudharshan' or ''
+all(['', 1,2,3,4])
+any(['', 1,2,3,4])
+2**3
+dir(__builtins__)
+help(pow)
+pow(3, 5)
+pow(3, 5, 2)
+help(pow)
+pow(3, 5, 3)
+def sum(a):
+def sum(a, b):
+  return a + b
+sum(1, 2)
+sum(a, b)
+a = 10
+sum(a, b)
+b = 20
+sum(a, b)
+sum
+del sum
+sum
+a =  10
+a = 100
+(1).__add__(2)
+def sum():
+  print(1+2)
+def sum(a):
+  return a+10
+def sum(a, b):
+  return a+b
+sum()
+sum(1)
+sum(1,2)
+def sum(a, b):
+  return a-b
+sum(1,2)
+def sam():
+  return 'yes'
+sam()
+sam(1)
+sum(1,2)
+sum(2,1)
+sum(1,2)
+sum(a=1,b=2)
+sum(b=1,a=2)
+sum(b=1,c=2)
+"{} {}".format(1,2)
+"{1} {0}".format(1,2)
+sum()
+def sum(a=10, b=20):
+  return a-b
+sum()
+dir(''.replace)
+help(''.replace)
+help(''.center)
+sum()
+sum(1)
+sum(1,2)
+sum(b=1)
+sum(a=1)
+def sum(a, b=20):
+  return a-b
+sum()
+sum(1,2,3)
+sum(1)
+def sum(b=10, a):
+  return a-b
+sum
+sum(1)
+sum(b=1)
+def sum(a, b=20):
+  return a-b
+sum(1, b=1)
+sum(b=1, 1)
+"{} {}".format([1,2])
+"{0} {0}".format([1,2])
+"{} {}".format(*[1,2])
+a = [1,2]
+a
+"{} {}".format(a,1)
+"{} {}".format(a)
+"{} {}".format(*a)
+"{} {}".format(*'sudharshan')
+"{} {}".format('sudharshan')
+"{0} {0}".format('sudharshan')
+"{} {}".format(*'sudharshan')
+"{name} {age}".format({'name': 'credo', 'age':10})
+"{name} {age}".format(**{'name': 'credo', 'age':10})
+"{name} {age}".format(name='credo', age=10)
+"{} {}".format(*'sudharshan')
+"{} {}".format('s', 'u')
+import readline
+readline.write_history_file('/home/mohideen/Desktop/pyDocs/pyModules/aug20/Func_aug25.txt')

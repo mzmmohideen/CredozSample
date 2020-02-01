@@ -1,0 +1,152 @@
+import shelve as s
+d = s.open("shelveSample.dbm")
+d
+dir(s)
+import shelve
+d = shelve.open("shelveSample.dbm")
+d
+d = shelve.open("shelveSample.txt")
+d = shelve.open("shelveSample.dbm")
+d
+e = {}
+type(e)
+type(d)
+e
+dir(d)
+d['name'] = 'ponnuswamy'
+d
+d['student1'] = 'ponnuswamy'
+d['student2'] = 'sugumar'
+d
+del d['name']
+d
+d.close()
+d
+d = shelve.open("shelveSample.dbm")
+d.v
+d = shelve.open("shelveSample.dbm")
+d
+s
+s = 'credo'
+dir(s)
+s.split('e')
+s
+s = s*s
+s = s+' '+s
+s
+s.split('e')
+''.join
+j = s.split('e')
+''.join(j)
+'-'.join(j)
+' '.join(j)
+s = 'hi hello how  are! hii who'
+import re
+re.findall
+re.search('ho.')
+re.search('ho.', s)
+re.search('ho.', s).groups()
+re.search('ho.', s).group()
+re.search('ho.', s)
+p re.search('ho.', s)
+p = re.search('ho.', s)
+p
+p.group(1)
+p.group()
+s
+p re.search('?ho.', s)
+p = re.search('?ho.', s)
+p = re.findall('?ho.', s)
+p = re.findall('ho.', s)
+p
+p = re.findall('?(ho.)', s)
+p = re.findall('\?ho.', s)
+p
+s = 'hi hello how  are! hii who ho'
+p = re.search('ho.', s)
+p
+p.group()
+p.group(1)
+p.group(0)
+p.groups()
+p = re.findall('ho.', s)
+p
+s
+re.split('a-z', s)
+re.split('a', s)
+d = {'stu1': 'sugumar', 'stu2': 'ponnuswamy'}
+d
+d['stu1']
+'sugumar' in d.values()
+['sugumar' in i for i in [d]]
+['sugumar' in i.values() for i in [d]]
+[i for i in [d]]
+[i for i in [d] if 'sugumar' in i.values()]
+s = [d]
+s.append({'stu1': 'sri'})
+s
+[i for i in s if 'sugumar' in i.values()]
+for i in d
+[for i,j in d.items()]
+[j for i,j in d.items()]
+[i for i,j in d.items() if j == 'ponnuswamy']
+[k for k,v in d.items() if v == 'ponnuswamy']
+help('super')
+class A:
+  pass
+dir(A)
+class A(object):
+  pass
+dir(A)
+type(A)
+class A:
+  pass
+type(A)
+;
+class dog:
+  def sound(self):
+     return "dog bark"
+class lion:
+   def sound(self):
+    return "lion roar"
+dog().soun()
+dog().sound()
+lion().sound()
+for i in [dog, lion]:
+   c = i()
+   c.sound()
+dog
+dog.__name__
+for i in [dog, lion]:
+   c = i()
+   print 'class %s'%i.__name__, c.sound()
+class tiger(lion):
+   pass
+for i in [dog, tiger]:
+   c = i()
+   print 'class %s'%i.__name__, c.sound()
+class A:
+  a = 10
+  _a = 20
+  __a = 30
+class B(A):
+  a = 100
+  _a = 200
+  __a = 300
+  print 'a', a, '_a', _a, '__a', __a
+class B(A):
+  a = 100
+  print 'a', a, '_a', _a, '__a', __a
+class B(A):
+  print dir()
+class B(A):
+  print dir(A)
+from abc
+from abc import ABC
+from ABC import abc
+import abc
+dir(abc)
+dir(C)
+dir(c)
+import readline
+readline.write_history_file('classEgInh.txt')

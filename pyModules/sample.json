@@ -1,0 +1,17 @@
+[
+	{
+		"name": "Student1",
+		"age": "10",
+		"location": "Chennai"
+	},
+	{
+		"name": "Student2",
+		"age": "11",
+		"location": "Madurai"
+	},
+	{
+		"name": "Student3",
+		"age": "12",
+		"location": "Trichy"
+	}
+]

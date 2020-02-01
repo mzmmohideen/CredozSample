@@ -1,0 +1,175 @@
+def a():
+  return 2 ** 3
+a()
+def a():
+  return 2 == 3
+a()
+  return 'No it is not' if 2 == 3 else 'Yes it is'
+def a():
+  return 'No it is not' if 2 == 3 else 'Yes it is'
+a()
+  return 'No it is not' if 2 != 3 else 'Yes it is'
+def a():
+  return 'No it is not' if 2 != 3 else 'Yes it is'
+a()
+a = lambda x : x*x
+a
+a()
+a(5)
+a(9)
+dir(__builtins__)
+map
+help(map)
+a
+def s(n):
+  return n*n
+map(s, range(1,10))
+map(a, range(1,10))
+map(lambda x: x*x, range(1,10))
+map(lambda x: x*x, 'credo')
+map(lambda x: x*2, 'credo')
+map(lambda x: return x*2, 'credo')
+map(lambda x: x*2, 'credo')
+help(filter)
+filter(lambda x: not x%2, range(1, 11))
+filter(lambda x: x.islower(), 'CrEdo')
+filter(lambda x: x.isupper(), 'CrEdo')
+help(reduce)
+reduce(lambda x, y: x+y, range(5))
+reduce(lambda x, y: x+y, range(15))
+yield
+help(yield)
+help('yield')
+range(10)
+import sys
+a = range(10)
+sys.getsize_info
+sys.get_size_info
+sys.size_info
+dir(sys)
+sys.getsizeof
+sys.getsizeof(a)
+a
+range
+xrange
+a
+sys.getsizeof(a)
+b = xrange(10)
+b
+sys.getsizeof(b)
+def s(n):
+  return n*n
+def ss(n):
+  yield n*n
+sys.getsizeof(s(5))
+sys.getsizeof(ss(5))
+sys.getsizeof(s(5))
+s
+s(1)
+s(2)
+s(3)
+ss
+ss(5)
+g = ss(5)
+g
+dir(g)
+g
+g.next()
+for i in g:
+  print i
+g = ss(5)
+for i in g:
+
+g.next()
+def s(n):
+   yield range(n)
+s
+s(10)
+q = s(10)
+q.next()
+def s(n):
+   for i in range(n):
+      yield i
+s
+s(10)
+q = s(10)
+q.next()
+for i in q:
+  print i
+q.next()
+def s():
+  for i in range(10):
+     print i
+s()
+def s():
+  for i in range(10):
+     return i
+s()
+def s():
+  for i in range(10):
+     if i > 5:
+        return 'reached limit'
+s()
+def s():
+  for i in range(10):
+     print i
+     if i > 5:
+        return 'reached limit'
+s()
+def s():
+  for i in range(10):
+     print i
+     yield i
+a = s()
+a
+a.next()
+for i in a:
+   print i
+for i in a:
+   print i
+a.next()
+[i for i in range(10) if i%2==0]
+(i for i in range(10) if i%2==0)
+a = (i for i in range(10) if i%2==0)
+a
+dir(a)
+a.next()
+for i in a:
+  print i
+def f():
+  print 1
+  f()
+f()
+def f():
+  print 1
+  f()
+def fact(n):
+   if n == 0:
+      return 1
+   else:
+      return n*fact(n-1)
+fact(5)
+5*4*3*2*1
+def gcd(a, b):
+   return a if b == 0 else gcd(b, a%b)
+2%1
+gcd(2,5)
+gcd(2,6)
+gcd(4,8)
+def gcd(a, b):
+   print 'a', a, 'b', b
+   return a if b == 0 else gcd(b, a%b)
+gcd(2,5)
+2%5
+g = lambda a,b: a if b == 0 else g(b, a%b) 
+g(2,5)
+import random
+dir(random)
+random.randint
+from random import randint
+randint
+from random import *
+choice
+import readline
+dir(readline)
+readline.write_history_file('nitheesh_func.txt')

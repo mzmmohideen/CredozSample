@@ -1,0 +1,26 @@
+{
+    "batchcomplete": "",
+    "warnings": {
+      "allpages": {
+        "*": "\"gaplimit\" may not be over 5000 (set to 50000) for bots or sysops."
+      }
+    },
+    "query": {
+      "pages": [
+        {
+          "pageid": 3893,
+          "ns": 0,
+          "title": "Page title 1",
+          "revisions": [{ "user": "User1", "timestamp": "2015-11-10T16:33:09Z" }]
+        },
+        {
+          "pageid": 7463,
+          "ns": 0,
+          "title": "Page title 2",
+          "revisions": [
+            { "user": "User2", "timestamp": "2017-09-26T13:10:56Z" }
+          ]
+        }
+    ]
+    }
+  }

@@ -1,0 +1,164 @@
+help(zip)
+a = [1,2,3]
+b = [4,5,6]
+c = [7,8,9]
+zip(a,b,c)
+[['name', 'age', 'address'], ['arjun', '15', 'ch'], ['sai', 22, 'ch'], ['nithya', 23, 'ch']]
+l = [['name', 'age', 'address'], ['arjun', '15', 'ch'], ['sai', 22, 'ch'], ['nithya', 23, 'ch']]
+l
+for i in l[1:]:
+   print zip(l[0], i)
+for i in l[1:]:
+   print dict(zip(l[0], i))
+help(map)
+def sqaure(n):
+  return n*n
+sqaure(5)
+map(sqaure, [1,2,3,4,5])
+map(lambda n: n*n, [1,2,3,4,5])
+k = lambda n: n*n
+k
+k(5)
+def fact(n):
+  if n>0:
+    return fact(n*(n-1))
+fact(5)
+def fact(n):
+  if n>0:
+    print 'n', n
+    return fact(n*(n-1))
+fact(5)
+def fact(n):
+   if n == 0:
+     return 1
+   else:
+     return n * fact(n-1)
+fact(5)
+def fact(n):
+def fact(n=0):
+   while n:
+def fact(n):
+   val = 1
+   while n:
+     val = val*n
+     n = n-1
+   return val
+fact(5)
+fact(4)
+fact(3)
+def fact(n):
+   if n == 0:
+     return 1
+   else:
+     return n * fact(n-1)
+def fact(n):
+   if n == 0:
+     return 0
+   else:
+     return n * fact(n-1)
+fact(5)
+def a():
+   while True:
+     return 1
+a()
+def a():
+   b = 1
+   while b:
+     b+=1
+   return b
+a()
+def a():
+   b = 1
+   while b:
+     print 'b', b
+     b+=1
+   return b
+a
+a()
+def a():
+   b = 1
+   while b:
+     print 'b', b
+     b+=1
+   yield b
+a
+a()
+a().next()
+a()
+dir(a)
+a
+def a():
+  yield 5
+a()
+dir(a)
+v = a()
+v
+dir(v)
+help(yield)
+help('yield')
+def eg():
+  for i in range(10):
+     print 'i', i
+  return True
+eg()
+def eg():
+  for i in range(10):
+     print 'i', i
+  yield True
+eg()
+a = eg()
+a.next()
+def PowTwoGen(max = 0):
+  n = 0
+  while n < max:
+    yield 2 ** n
+    n += 1
+a = PowTwoGen(10)
+a
+dir(a)
+a.next()
+def PowTwoGen(max = 0):
+  n = 0
+  while n < max:
+    return 2 ** n
+    n += 1
+a = PowTwoGen(10)
+a
+def PowTwoGen(max = 0):
+  n = 0
+  while n < max:
+    yield 2 ** n
+    n += 1
+a
+a = PowTwoGen(10)
+a
+dir(a)
+a
+for i in a:
+   print 'i', i
+for i in a:
+   print 'i', i
+a
+for i in a:
+   print 'i', i
+a = PowTwoGen(10)
+a
+a.next()
+s = [i for i in range(10)]
+s
+t = (i for i in range(10))
+t
+dir(t)
+t = (i for i in range(10) if i%2==0)
+t
+for i in t:
+   print i
+for i in t:
+   print i
+t = (i for i in range(10) if i%2==0)
+t.next()
+import readline
+dir(readline)
+help(readline.get_history_item)
+help(readline.read_history_file)
+readline.write_history_file('/home/mohideen/Desktop/pyScript/genrator.txt')

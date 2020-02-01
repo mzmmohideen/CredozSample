@@ -1,0 +1,93 @@
+s = "credo systemz"
+dir(s)
+a
+s
+s + s
+s + 10
+s = "credo systemz %s you"
+s
+s%('welcomes')
+s = "credo systemz %s you"%('welcome')
+s
+"credo systemz %s you"%(1)
+"credo systemz %d you"%(1)
+"credo systemz %d you"%('welcome')
+dir('')
+a = 10;
+"credo systemz %d %s you"%(1)
+"credo systemz %d %s you"%(1, 'welcome')
+"credo systemz %d %s you"%('welcome', 1)
+"credo systemz %d %s you"%(welcome, 1)
+welcome = 1
+"credo systemz %d %s you"%(welcome, 1)
+"credo systemz %d %s %f you"%(1, 'welcome', 2)
+"credo systemz %d %s %d you"%(1, 'welcome', 2)
+"credo systemz %d %s %f you"%(1, 'welcome', 2)
+"credo systemz %d %10s %f you"%(1, 'welcome', 2)
+"credo systemz %d %-10s %f you"%(1, 'welcome', 2)
+"%s"
+"%s"%('welcome')
+"%10s"%('welcome')
+"%a10s"%('welcome')
+"%10as"%('welcome')
+"%10s"%('welcome')
+"%-10s"%('welcome')
+"%-10.5s"%('welcome')
+"%-10.4s"%('welcome')
+"%.4s"%('welcome')
+"{}"
+dir('')
+f''
+"{}".format()
+"{}".format(1)
+"{}".format(1,2)
+"{0}".format(1,2)
+"{1}".format(1,2)
+"{1}".format(1,2, 'credo')
+"{2}".format(1,2, 'credo')
+"{} {} {}".format(1,2, 'credo')
+"{2} {0} {1}".format(1,2, 'credo')
+"{} {} {1}".format(1,2, 'credo')
+"{} {} {}".format(1,2)
+"{0} {1} {0}".format(1,2)
+"{0} {1} {1}".format(1,2)
+"%d"%(1)
+"%4d"%(1)
+"%04d"%(1)
+l = [1, 2, 10, 20, 3, 40]
+l
+l.sort()
+l
+l = map(str, [1, 2, 10, 20, 3, 40])
+l
+l.sort()
+l
+[i for i in l]
+["%02d"%(i) for i in l]
+["%02d"%(int(i)) for i in l]
+l = ["%02d"%(int(i)) for i in l]
+l
+l.sort()
+l
+s
+s[0]
+s[0:10]
+s
+s[0:10]
+s[]
+s[0:10:1]
+s[0:10:2]
+s[0:10:-1]
+s[-1:10:-1]
+s
+s[-1:-10:-1]
+s[-1:-10:-2]
+s[:-10:-2]
+s[::-1]
+a
+a == 10
+a == 11
+min
+l
+import readline
+readline.write_history_file("/home/mohideen/Desktop/pyDocs/pyModules/sep8/slicing.txt")

@@ -1,0 +1,140 @@
+class Sample:
+  pass
+dir(Sample)
+class Sample(object):
+  pass
+dir(Sample)
+class Sample:
+  a = 10
+  b = 20
+  def sum(self):
+    return self.a+self.b
+dir(Sample)
+class A:
+  pass
+type(A)
+type(Sample)
+class A(object):
+  pass
+type(Sample)
+type(A)
+Sample.a
+Sample.b
+class Sample:
+  a = 10
+  b = 20
+  def sum(s):
+class Sample:
+  a = 10
+  b = 20
+  def sum(s):
+    print s.a, s.b
+    print a, b
+Sample
+Sample().sum()
+Sample().sum(1)
+class Sample:
+  def sum(s, a, b):
+    print s
+    print a+b
+Sample().sum()
+Sample().sum(10, 20)
+d = Sample()
+d
+dir(d)
+d
+Sample.sum
+Sample.sum()
+d
+d.sum()
+d.sum(1, 2)
+class sample:
+class A:
+   a = 10
+   b = 20
+class B(A):
+  print dir()
+B()
+d = B()
+dir(d)
+class A:
+  a = 10
+  b = 20
+  def __init__(self, c):
+     self.c = c
+dir(A)
+Sample
+dirSample)
+dir(Sample)
+Sample()
+Sample().sum()
+Sample().sum(1, 2)
+dir(A)
+A
+d = A()
+d = A(3)
+dir(d)
+class B:
+  a = 10
+  b = 2
+  def __init__(self):
+    self.c = 10
+  def add(self, d):
+    self.c = d
+dir(B)
+B.b
+dir(B())
+B
+B().c
+dir(B)
+B().c
+B.c
+B().c
+s = B()
+s
+s.c
+s.add()
+s.add(10)
+s.c
+s.add(100)
+s
+s.c
+class B:
+  a = 10
+  b  = 20
+  def __init__(self):
+    self.c = self.add()
+  def add(self):
+    return self.a+self.b
+B
+dir(B)
+s = B()
+s
+dir(s)
+s.c
+B.c
+B().c
+class Calc:
+  def add(self, *args):
+    return sum(args)
+Calc()
+Calc().add(1,2,3,4,5,6)
+class Calc:
+  def mul(self, *args):
+     return "*".join([i for i in args])
+Calc().mul(1,2)
+Calc().mul(1,2,3)
+Calc().mul(1,2,3,4)
+Calc().mul(1,2,3,4,5)
+class Calc:
+  def mul(self, *args):
+    return "*".join(args)
+Calc().mul(1)
+class Calc:
+  def mul(self, *args):
+    return eval("*".join([str(i) for i in args]))
+Calc().mul(1)
+Calc().mul(1,2)
+Calc().mul(1,2,3)
+import readline
+readline.write_history_file('/home/mohideen/Desktop/pyScript/txtFiles/May29class.txt')

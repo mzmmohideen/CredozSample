@@ -1,0 +1,496 @@
+a = 'hi hello'
+A
+A = 'hi hello'
+a
+A
+A = 'hi hello how are'
+A
+a
+A = 'hi hello how are'
+A = 'hi hello'
+A
+a = 'hi hello how are you'
+a
+a = 'hi hello'
+a
+A
+a = 'hi hello how are you'
+a
+A
+DIR
+dir
+raw_input("Enter your ")
+print
+1/2
+1.0//2.0
+1.0/2.0
+float(1)/2.0
+print "1"
+print ("1")
+print("1")
+IF
+IF True:
+if True:
+i
+if = 1
+If = 1
+if True:
+  print "True"
+else:
+  print "False"
+a = 1
+if a:
+  print a
+else:
+  print "false"
+a = 0
+if a:
+  print a
+else:
+  print "false"
+a = -1
+if a:
+  print a
+else:
+  print "false"
+a = 1
+a == 1
+if 
+'1' == 1
+'1' is 1
+id(1)
+id('1')
+1 == 1.0
+id(eval('1'))
+id(1)
+a = 50
+a == 50
+a is 50
+a = float(a)
+a
+a is 50
+50.0 == 50
+id(a)
+a
+id(50)
+b = 10
+id(b)
+id(10)
+a == 50
+a
+dir('')
+'a'.rstrip('s')
+'a'.rstrip('a')
+a = "apple"
+a.startswith('a')
+if a.startswith('a'):
+  a = a.rstrip('a')
+a
+a.rstrip('a')
+a.rstrip('')
+a.rstrip()
+a.lstrip('a')
+help(''.strip)
+a
+a.strip()
+a.strip('a')
+' apple'.strip('a')
+' applea'.strip('a')
+' applea'.strip()
+' applea '.strip()
+len(' applea ')
+len(' applea'.strip())
+len(' applea '.strip())
+' applea '.strip('a')
+' applea '.strip()
+' applea '.strip(' ')
+' applea '.strip('')
+' applea '.strip('  ')
+a
+if a.startswith('a'):
+  a = a.lstrip('a')
+a
+if a.startswith('a'):
+  a = a.lstrip('a')
+a.startswith('a')
+if a.startswith('a'):
+  a = a.lstrip('a')
+else:
+  a = 'a'+a
+a
+if a.startswith('a'):
+  print 'i am here: boolean is True'
+  a = a.lstrip('a')
+else:
+  print 'I am False"
+if a.startswith('a'):
+  print 'i am here: boolean is True'
+  a = a.lstrip('a')
+else:
+  print 'I am False'
+  a = 'a'+a
+a
+if a.startswith('a'):
+  print 'i am here: boolean is True'
+  a = a.lstrip('a')
+else:
+  print 'I am False'
+  a = 'a'+a
+a
+a.startswith('a')
+if not a.startswith('a'):
+  print 'i am here: boolean is True'
+  a = a.lstrip('a')
+a
+if not a.startswith('a'):
+  print 'i am here: boolean is True'
+  a = a.lstrip('a')
+else:
+  print 'I am True now'
+  a = 'a'+a
+a
+a == 'apple'
+a == 'aapple'
+a != 'aapple'
+'yes' if a else 'no'
+  a = 'a'+a
+a 
+if not a.startswith('a'):
+  pass
+else:
+  a = 'a'+a
+a
+if a.startswith('a'):
+  a = 'a'+a
+a
+if not a.startswith('a'):
+  print a
+else:
+  a = a.lstrip('a')
+a
+if a == 'apple':
+  print 'I am apple'
+elif a == 'orange':
+  print 'I am not apple'
+else:
+  print 'I am nothing'
+salary = 10000
+if salary > 50000:
+  print "Lead position"
+elif 20000 < salary < 50000:
+  print "mid range"
+else:
+  print "Junior"
+salary = 25000
+if salary > 50000:
+  print "Lead position"
+elif 20000 < salary < 50000:
+  print "mid range"
+else:
+  print "Junior"
+a = 10
+a
+a = (0, 10)
+a
+type(a)
+a, b = (0, 10)
+a
+b
+a
+b
+range(10)
+1 in range(10)
+'credo'
+'c' in 'credo'
+1 in 'credo'
+'q' in 'credo'
+1 in range(10)
+n = raw_input('Enter your name:')
+apple
+'l' in n
+'s' in n
+n = raw_input('Enter your name:')
+orange
+'l' in n
+[1,2,3,4,5]
+[1,2,3,4,5].reverse()
+l = [1,2,3,4,5]
+l
+l.reverse()
+l
+1 + 1
+1-2
+1*1
+1/2
+2**2
+2**6
+a = 1
+a
+a == 1
+b == 1 
+c == 1
+b
+c == 1
+c = 1
+c
+c == 2
+c === 2
+50 == 50.0
+a = 50
+b = 50.0
+id(a)
+id(b)
+a == b
+a is b
+class = 10
+clas = 10
+finally
+finall
+False = 1
+False
+True
+True = 0
+True
+l
+l[4]
+dir(l)
+l.index(4)
+l.index(6)
+5 in l
+6 in l
+c
+s
+s = "credo"
+'c' in s
+'cr' in s
+'cre' in s
+'cred' in s
+'credo' in s
+'cred0' in s
+d
+d = {'a':1, 'v': 2}
+'a' in d
+'c' in d
+1 in d
+a = 10
+ b = 20
+if a:
+a = 10
+if a:
+ a = 10
+s = "credo
+s = "credo \
+hello"
+s
+s = """credo 
+hello"""
+s
+print = 1
+Print = 1
+If = 1
+if = 1
+False = 1
+None = 1
+False = 1
+True = 1
+2*2
+2**2
+2**3
+2***3
+2**3
+2^3
+a
+a is 10
+float(a)
+float(a) == 10
+float(a) is 10
+float(a) == 10
+float(a) is 10
+float(a)
+float(a) is 10
+float(a) is a
+a
+float(a)
+'float(a)' is a
+b = float(a)
+b
+b == a
+b is a
+if a == 10:
+  print "Exist"
+if a != 10:
+  print "Exist"
+if not a == 10:
+  print "Exist"
+a != 10
+if not a == 10:
+  print "not at all"
+a
+a = 11
+if not a == 10:
+  print "not at all"
+a == 10
+if True:
+  print "Its True
+if True:
+  print "Its True"
+if False:
+  print "Its True"
+if False:
+  print "Its True"
+False
+False = 0
+if False:
+  print "Its True"
+if not False:
+  print "Its True"
+a = 11
+if a == 10:
+  print "a", a
+if not a == 10:
+  print "Its True"
+a = 10
+a == 10
+a != 10
+if a == 10:
+  print "Yes it is"
+if a != 10:
+  print "Yes it is"
+if not a != 10:
+  print "Yes it is"
+if not a == 10:
+  print "Yes it is"
+a
+'c' in 'credo'
+'cre' in 'credo'
+'re' in 'credo'
+'d' in 'credo'
+'do' in 'credo'
+'d0' in 'credo'
+'ed' in 'credo'
+'de' in 'credo'
+if 'de' in 'credo':
+  print "de exist
+if 'de' in 'credo':
+  print "de exist"
+if 'do' in 'credo':
+  print "do exist"
+if 'do' in 'credo':
+  print "do exist"
+  print "exist"
+if 'do' in 'credo':
+  print "exist"
+if 'do' in 'credo':
+  print ""
+if 'do' in 'credo':
+  print 
+a = 'hi hello how are you'
+a
+'hi' in a
+'hi' in a and 'hello' in a
+('hi' in a) and ('hello' in a)
+('hi' in a)
+('hello' in a)
+('hi' not in a) and ('hello' in a)
+('hi' not in a)
+('hi' not in a) or ('hello' in a)
+('hii' in a)
+('hii' not in a)
+('hii' not in a) or ('hel' in a)
+('hii' not in a) or ('hel' not in a)
+('hel' not in a)
+True or False
+('hii' not in a)
+('hii' in a)
+('hii' not in a)
+'hii' not in a or 'hel' not in a
+('hii' not in a) or ('hel' not in a)
+(('hii' not in a) or ('hel' not in a))
+if (('hii' not in a) or ('hel' not in a)):
+  print "it is true"
+if not (('hii' not in a) or ('hel' not in a)):
+  print "it is true"
+if not (('hii' not in a) or ('hel' not in a)):
+  print "it is true"
+else:
+  print "Inversed"
+a = 10
+if a == 5:
+  print "Five"
+elif a < 5:
+  print "a is less than five"
+else:
+  print "a is greater than"
+a = raw_input("Enter name:")
+credo system
+a
+if 'sys' in a:
+   b = "Exist"
+b
+if 'sys' in a:
+if 'sys' not in a:
+   c = "Checking Exist"
+c
+if 'sys' not in a:
+   d = "Checking Exist"
+d
+if 'sys' not in a:
+   q = "Checking Exist"
+q
+a
+if 'c' not in a:
+  zz = "C is exists"
+else:
+  zz = "C"
+zz
+zz = "C is exists" if 'c' not in a
+zz = 
+zz = "C is exists" if 'c' not in a else "C"
+zz
+n = input("Enter your number:")
+10
+if n%2 == 0:
+  number = "Even Number"
+number
+n = input("Enter your number:")
+11
+if n%2 == 0:
+  numbe = "Even Number"
+numbe
+n = input("Enter your number:")
+11
+numbe = ""
+if n%2 == 0:
+  numbe = "Even Number"
+numbe
+numbe = "Even Number" if n%2==0 else "Odd Number"
+numbe
+n = input("Enter your number:")
+16
+numbe = "Even Number" if n%2==0 else "Odd Number"
+numbe
+n = input("Enter your number:")
+15
+numbe = "Even Number" if n%2==0 else "Odd Number"
+numbe
+numbe = "Even Number" if n%2==0 else "It is equal to 15" if n = 15 else  "Odd Number"
+numbe = "Even Number" if n%2==0 else "It is equal to 15" if n == 15 else "Odd Number"
+numbe
+n
+n = input("Enter your number:")
+10
+numbe = "Even Number" if n%2==0 else "It is equal to 15" if n == 15 else "Odd Number"
+numbe
+n = input("Enter your number:")
+17
+numbe = "Even Number" if n%2==0 else "It is equal to 15" if n == 15 else "Odd Number"
+numbe
+n = input("Enter your number:")
+15
+numbe = "Even Number" if n%2==0 else "It is equal to 15" if n == 15 else "Odd Number"
+numbe
+numbe = "Even Number" if n%2==0 else "It is equal to 15" if n = 15 else "Odd Number"
+numbe = "Even Number" if n%2==0 else "It is equal to 15" if n == 15 else "Odd Number"
+ numbe = "Even Number" if n%2==0 else "It is equal to 15" if n == 15 else "Odd Number"
+numbe = "Even Number" if n%2==0 else "It is equal to 15" if n == 15 else "Odd Number"
+import readline;readline.write_history_file('/home/mohideen/Desktop/pyScript/eg2.txt')

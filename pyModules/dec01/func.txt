@@ -1,0 +1,407 @@
+print ""
+print("credo")
+raw_input
+raw_input()
+input()
+10
+10/20
+10//20
+print
+help(pritn)
+help(print)
+pprint
+import pprint
+dir(pprint)
+help(print)
+print "1"
+print("1", "2", "3")
+print("1", "2", "3", sep=",")
+print("1", "2", "3", sep="|")
+a = [1,2,3,4,5]
+"".join
+"".join(a)
+"".join(a)a
+a
+"".join(a)
+"".join([i for i in a])
+"".join([str(i) for i in a])
+s = [str(i) for i in a]
+s
+a
+"".join(a)
+"".join(s)
+"|".join(s)
+",".join(s)
+a = [
+1
+,
+2,
+3
+,
+4
+]
+s = "a
+s = "a \
+end"
+s
+s = """a 
+how are you"""
+s
+v = 1
+v=1
+v = 1
+V
+raw_input
+a = input("Enter your key:")
+y
+a == 'Y'
+a == 'y'
+a.lower() == 'y'
+a = input("Enter your key:")
+Y
+a
+a.lower() == 'y'
+10/2
+1/2
+1//2
+print("1")
+print ("1")
+print "1"
+a = 10
+A
+B = 20
+b
+print = 1
+if = 1
+If = 1
+printt()
+print()
+print(1)
+a = 10
+a = 10;
+a = 10;b=9
+a = 10
+l = [
+1,
+2,
+3
+]
+l
+a = 100
+a
+a == 200
+c == 200
+a == 200
+a == 100
+a > 50
+a < 50
+a == None
+None == ''
+None == 
+None == 0
+class = 1
+False = 1
+True = 1
+None = 1
+import readline;readline.write_history_file('/home/mohideen/Desktop/pyScript/eg6.txt')
+exit()
+def f() -> str:
+   return "ok"
+f()
+def f() -> str:
+   return 1
+f()
+type(f())
+items = {"A": 1, "B": 2, "C": 3}
+u_items = {"D": 4, "B": 4, "E": 8, "C": 4}
+items.update((k + '_1' if k in items else k, v) for k, v in u_items.items())
+items
+n_items = {"C":7, "B":9}
+items.update((k + '_1' if k in items else k, v) for k, v in n_items.items())
+items
+items.update((k + '_1' if k in items else k, v) for k, v in u_items.items())
+items
+items.update((k + '_1' if k in items else k, v) for k, v in u_items.items())
+items
+items = {"A": 1, "B": 2, "C": 3}
+u_items = {"D": 4, "B": 4, "E": 8, "C": 4}
+items.update((k + '_1' if k in items else k, v) for k, v in u_items.items())
+items
+n_items = {"C":7, "B":9}
+for k, v in n_items.items():
+   print k
+for k, v in n_items.items():
+   print(k)
+for k, v in n_items.items():
+   print(k)
+for k, v in n_items.items():
+   k in items
+for k, v in n_items.items():
+   [i for i in items if k in i]
+for k, v in n_items.items():
+   max[i for i in items if k in i]
+for k, v in n_items.items():
+   max(i for i in items if k in i)
+1items.update(max(_k for _k in items if k in _k), v) for k, v in u_items.items())
+for k, v in n_items.items():
+   max(i for i in items)
+for k, v in n_items.items():
+   max(i for i in items)
+for k, v in n_items.items():
+   print(k)]
+for k, v in n_items.items():
+   print(k)
+for k, v in n_items.items():
+   max(k for k in items)
+for k, v in n_items.items():
+   max(k for i in items)
+n_items
+items
+for k, v in n_items.items():
+   max(i for i in items if k in i)
+[ max(i for i in items if k in i) for k,v in n_items.items()]
+1items.update(max(_k for _k in items if k in _k), v) for k, v in u_items.items())
+[ max(i for i in items if k in i) for k,v in u_items.items()]
+items = {"A": 1, "B": 2, "C": 3}
+u_items = {"D": 4, "B": 4, "E": 8, "C": 4}
+[ max(i for i in items if k in i) for k,v in u_items.items()]
+[ max(i for i in items if k in i.keys()) for k,v in u_items.items()]
+[k for k,v in u_items.items()]
+[k for k,v in u_items.items() if k in items]
+[k for k,v in u_items.items() if k in items else 0]
+[k for k,v in u_items.items()]
+[items.keys().index(k) for k,v in u_items.items()]
+[items.keys() for k,v in u_items.items()]
+[dir(items.keys()) for k,v in u_items.items()]
+[k for k,v in u_items.items()]
+[k in items for k,v in u_items.items()]
+items1 = {"A": 1, "B_1": 2, "C": 3}
+[k in items1 for k,v in u_items.items()]
+[k for k,v in u_items.items()]
+items.update((k + '_1' if k in items else k, v) for k, v in n_items.items())
+items
+items = {"A": 1, "B": 2, "C": 3}
+items.update((k + '_1' if k in items else k, v) for k, v in u_items.items())
+items
+n_items = {"C":7, "B":9}
+(k + '_1' if k in items else k, v) for k, v in n_items.items()
+k + '_1' if k in items else k, v) for k, v in n_items.items()
+(k + '_1' if k in items else k, v) for k, v in n_items.items())
+((k + '_1' if k in items else k, v) for k, v in n_items.items())
+[(k + '_1' if k in items else k, v) for k, v in n_items.items()]
+items
+for k,v in n_items.items():
+    print (k)
+[(k + '_1' if k in items else k, v) for k, v in n_items.items()]
+[(i for k in items) for k, v in n_items.items()]
+[max(i for k in items) for k, v in n_items.items()]
+[max(i for i in items if k in i) for k, v in n_items.items()]
+items
+n_items = {"C":7, "B":9, 'D': 5}
+[max(i for i in items if k in i) for k, v in n_items.items()]
+n_items = {"C":7, "B":9, 'D': 5, 'X':1}
+[max(i for i in items if k in i) for k, v in n_items.items()]
+[max(i if k in i else 0 for i in items) for k, v in n_items.items()]
+[max(i if k in i else '' for i in items) for k, v in n_items.items()]
+[max(i if k in i else '' for i in items), v for k, v in n_items.items()]
+[(max(i if k in i else '' for i in items), v) for k, v in n_items.items()]
+[(max(i if k in i else '' for i in items) + '_1', v) for k, v in n_items.items()]
+[(max(i if k in i for i in items), v) for k, v in n_items.items()]
+[(max(i if k in i else None for i in items), v) for k, v in n_items.items()]
+[max(i for i in items if k in i) for k, v in n_items.items()]
+[k if k in i else None for k, v in n_items.items()]
+[k if k in items else None for k, v in n_items.items()]
+for k, v in n_items.items():
+  print (k)
+for k, v in n_items.items():
+  if k in items:
+    print (k)
+for k, v in n_items.items():
+  if k in items:
+    print (max(i for i in items if k in i))
+for k, v in n_items.items():
+  _k = (k, v)
+  if k in items:
+     _k = (max(i for i in items if k in i)+'_1', v)
+  items.update(_k)
+for k, v in n_items.items():
+  _k = (k, v)
+  if k in items:
+     _k = (max(i for i in items if k in i)+'_1', v)
+  print (_k)
+for k, v in n_items.items():
+  _k = (k, v)
+for k, v in n_items.items():
+  _k = {k: v}
+  if k in items:
+     _k = {max(i for i in items if k in i)+'_1': v}
+  print (_k)
+for k, v in n_items.items():
+  _k = {k: v}
+  if k in items:
+     _k = {max(i for i in items if k in i)+'_1': v}
+  items.update(_k)
+items
+help([].insert)
+help(''.center)
+''.center(width=1)
+def str(n):
+  if isinstance(n, int):
+def str(n):
+  try:
+def str(n):
+  out = ""
+  try:
+    for i in n:
+      _i = "%s"%(i)
+def str(n):
+  return "%s"%n
+str(1)
+def str(n):
+  out = ""
+  try:
+    for i in n:
+      _i = "%s"%(i)
+      out = out+_i
+  except:
+    try:
+      n%10
+s = 'nethaji'
+s
+s[0]
+s[-1]
+s[0:1]
+s[0:2]
+s[-1]
+s[-1:1]
+s[-1:1:-1]
+s[-1::-1]
+s[::-1]
+i = [1,2,3]
+[j for j in i]
+[(j) for j in i]
+[(j,) for j in i]
+[(j,j**3) for j in i]
+i = [3,4,5]
+[(j,j**3) for j in i]
+print
+print('out is', 3)
+help('print')
+help(print)
+print('out is', 3, sep='*')
+input
+help(input)
+raw_input
+1/2
+`//1
+1//2
+for i in range(10):
+  print(i,)
+for i in range(10):
+  print(i,end="\t")
+help(print)
+for i in range(10):
+  print(i,end=" ")
+dir(__builtins__)
+import argparse
+import argparser
+import argparse
+dir()
+sum()
+summ()
+def range(n):
+  out = []
+  while n:
+def range(n):
+  start = 0
+  step = 1
+  stop = n
+  while start < stop:
+def range(n):
+  start = 0
+  step = 1
+  stop = n
+  out = []
+  while start < stop:
+    out.append(start)
+    start += step
+  return out
+range(1)
+range(10)
+def pow(n, p):
+   out = n ** p
+pow(2)
+pow(2, 2)
+a = pow(2, 2)
+a
+a == None
+def pow(n, p):
+   out = n ** p
+   return out
+def pow(n, p):
+  return n ** p
+pow(2, 2)
+def sum():
+  return 10 + 20
+def run():
+  inp = input("Enter your name:")
+  return "Welcome {}".format(inp)
+run()
+credo
+run('credo')
+"{0} {1}".format(1,2)
+"{0} {1}".format(a=1,b=2)
+"{a} {b}".format(a=1,b=2)
+def pow(n , p):
+  return n ** p
+pow()
+pow(10)
+pow(p=10)
+pow(10, 2)
+def pow(n , p=0):
+  return n ** p
+pow(p=10)
+pow(10)
+def pow(n=2, p=0):
+  return n ** p
+pow(10)
+pow()
+def pow(n=2, p):
+  return n ** p
+def pow(n, p=1):
+  return n ** p
+pow(2)
+pow(2, 2)
+pow(n=2, p=2)
+pow(n=2, p=3)
+pow(p=2, n=3)
+pow(p=2, 3)
+pow(3, p=2)
+def sum(a,b):
+  return a + b
+sum(10, 20)
+sum(10, 20, 30)
+def sum(*args):
+  print('args', args)
+sum(10, 20)
+sum(10, 20, 30)
+def sum(*args):
+  print('args', args, type(args))
+sum(10, 20, 30)
+sum(10, 20, 30, a = 10, b = 20)
+def sum(*args, **kwargs):
+  print('args', args, type(args), kwargs)
+sum(10, 20, 30, a = 10, b = 20)
+sum()
+def sum(*a, **k):
+  return sum(a)
+def sum(*a, **k):
+   out = 0
+   for i in a:
+     out += i
+   return out
+sum(10, 20, 30)
+sum(10, 20, 30, 40)
+sum(10, 20, 30, 40, 50)
+import readline
+readline.write_history_file('func.txt')

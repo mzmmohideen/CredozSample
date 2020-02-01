@@ -1,0 +1,98 @@
+import pyttsx
+p = pyttsx.Engine()
+p.say("Hi")
+p.startLoop()
+p.say("Hi")
+help(pop)
+help([].pop)
+a = []
+help(a.pop)
+dir(a.pop)
+dir(a)
+type(a)
+dir(a)
+dir(#)
+dir(hash)
+hash
+def a():
+  pass
+help(a)
+dir(a)
+help(hash)
+hash(1)
+hash(10)
+hash(10.5)
+help(a.pop)
+help([].pop)
+help([].re;move)
+help([].remove)
+a = 10
+dir(a)
+a + 10
+a.__add__(21)
+1+10
+(1).__add__(10)
+10[]
+10[0]
+dir('')
+''[0]
+'a'[0]
+dir('')
+'credo' + 'system'
+'credo' + ' system'
+'credo' + ' ' + 'system'
+l = input()
+credo
+help('raw_input')
+help('input')
+credo = 10
+l = input()
+credo
+l
+l = raw_input()
+credo
+l
+help('input')
+l = input()
+credo
+l
+l = raw_input()
+credo
+l
+l.index
+l.index('a')
+dir(l)
+help(l.index)
+range(10)
+import sys
+sys.getsizeof(range(10)
+)
+d
+d  = {'location': 'chennai', 'name': 'apple'}
+d.items()
+from bs4 import BeautifulSoup as BS
+import urllib2 as ulib
+_url = ulib.build_opener()
+_url
+res = _url.open("http://www.amazon.in/gp/product/B07G9V9Z7B?pf_rd_p=f2b20090-067d-415f-953d-b8dcecc9109f&pf_rd_r=KBHG2C6547DWZAX7SJSP")
+_url.addheaders = [('User-agent', 'Mozilla/5.0')]
+res = _url.open("http://www.amazon.in/gp/product/B07G9V9Z7B?pf_rd_p=f2b20090-067d-415f-953d-b8dcecc9109f&pf_rd_r=KBHG2C6547DWZAX7SJSP")
+res
+b = BS(res)
+b
+b.find(id="priceblock_ourprice")
+b.find(id="productTitle")
+b
+b.find
+b.find(id="sp_detail_B07HBDTYHK")
+v = b.find(id="sp_detail_B07HBDTYHK")
+dir(v)
+dir(b)
+help(b.find)
+v = b.find(id)
+v
+v = b.find('span')
+v
+import readline
+readline.write_history_file('file:///home/mohideen/Desktop/pyScript/txtFiles')
+readline.write_history_file('/home/mohideen/Desktop/pyScript/txtFiles/BatchJune23loop.txt')

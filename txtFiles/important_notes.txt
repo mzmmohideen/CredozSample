@@ -1,0 +1,16 @@
+"""
+1) to get sizeof
+"""
+
+#1 Answer
+import sys
+sys.getsizeof(object)
+#end
+
+"""
+2) Export Python interpreter session
+"""
+#2 Answer
+import readline #inside python interpreter
+readline.write_history_file('/home/mohideen/Desktop/pyScript/eg2.txt') #filename along with path
+#end

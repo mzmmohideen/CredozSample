@@ -1,0 +1,111 @@
+a = range(10)
+a
+import sys
+sys.getsizeof(a)
+a = [1,2,3,4,5,6]
+b = []
+for i in a:
+   if i%2 != 0:
+     b.append(i)
+b
+[i for i in a]
+c = [i for i in a]
+c
+[i for i in a if i%2 != 0 ]
+{i for i in {'apple':3, 'orange':4, 'banana':5}}
+f =  {'apple':3, 'orange':4, 'banana':5}
+for i in f:
+   print i
+for i in f:
+   print f[i]
+dir(f)
+f.values()
+f.keys()
+{i for i in {'apple':3, 'orange':4, 'banana':5}.items()}
+{k for k,v in {'apple':3, 'orange':4, 'banana':5}.items()}
+{k:v for k,v in {'apple':3, 'orange':4, 'banana':5}.items()}
+{k:v for k,v in {'apple':3, 'orange':4, 'banana':5}.items() if v < 5}
+l =[1,1,2,3,4,3,2,11,1]
+help(set)
+l
+set(l)
+dir(set(l))
+set(l)
+s = set(l)
+sorted
+sorted(s)
+set(i for i in l)
+set(i for i in l if i%2==0)
+set(i for i in [1, 1, 2, 3, 4, 3, 2, 11, 1] if i%2==0)
+s = set(i for i in [1, 1, 2, 3, 4, 3, 2, 11, 1] if i%2==0)
+s
+[i for i in l]
+["%s is Even"%i if i%2==0 else "%s is Odd"%i for i in l]
+set(["%s is Even"%i if i%2==0 else "%s is Odd"%i for i in l])
+help(print)
+help('print')
+print 1
+l == 0
+if l == 0:
+  
+if l == 0:
+   print 1
+if l == 0:
+   #print 1
+if l == 0:
+   #print 1
+   pass
+if l == 0:
+   print 1
+   pass
+   print 2
+if not l == 0:
+   print 1
+   pass
+   print 2
+help(pass)
+help('lpass')
+help('pass')
+def a():
+  pass
+if a:
+  pass
+for x in [1,2,3,4,5,6]:
+   print x
+   if i%2!=0:
+      print "I am odd"
+      continue
+      print "Next Iteration"
+i
+for x in [1,2,3,4,5,6]:
+   print x
+   if x%2!=0:
+      print "I am odd"
+      continue
+      print "Next Iteration"
+for x in [1,2,3,4,5,6]:
+   print x
+   if x%2!=0:
+      print "I am odd"
+      continue
+   print "Next Iteration"
+for x in [1,2,3,4,5,6]:
+   print x
+   if x%2!=0:
+      print "I am odd"
+   print "Next Iteration"
+help('continue')
+for x in [1,2,3,4,5,6]:
+   print x
+   if x%2!=0:
+      print "I am odd"
+for x in [1,2,3,4,5,6]:
+   print x
+   if x%2==0:
+      print "I am even"
+      break
+   print "Next Iteration"
+import readline as r
+r
+readline
+r.write_history_file('/home/mohideen/Desktop/pyScript/loopNitheesh.txt')

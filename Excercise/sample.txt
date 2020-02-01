@@ -1,0 +1,46 @@
+>>> def click(t, c):
+...   d = {2: 'ABC', 3: 'DEF', 4: 'GHI', 5:'JKL', 6: 'MNO', 7: 'PQRS', 8: 'TUV', 9: 'WXYZ'} 
+...   if t in (7, 9):
+...      mod = 4
+...   else:
+...      mod = 3
+...   if d.get(t):
+...     return d[t][c%mod-1]
+# 'DEF'[c%mod-1]
+... 
+>>> click(5, 1)
+'J'
+>>> click(5, 2)
+'K'
+>>> click(8, 2)
+'U'
+>>> click(8, 6)
+'V'
+>>> click(4, 2)
+'H'
+>>> 
+
+>>> def check(c):
+...   out = ''
+...   for i in c:
+...     if i not in out:
+...        out += i
+...   return out == c
+... 
+>>> check('mohi')
+True
+>>> check('ramu')
+True
+>>> check('raamu')
+False
+>>> check('badri')
+True
+>>> check('badri narayanan')
+False
+>>> 
+
+
+>>> m = range(1, 11)
+>>> [i for i in m if i not in [1,2,4,5,6,7,9]]
+[3, 8, 10]
+>>> 

@@ -1,0 +1,205 @@
+print ""
+print("credo")
+raw_input
+raw_input()
+input()
+10
+10/20
+10//20
+a = "credo"
+1 in a
+'a' in 1
+if a == 10
+type(a)
+a
+isinstance
+dir(__builtins__)
+isinstance
+type(a)
+dir(type(a))
+type(a).__class__
+type(a).__str__
+type(1)
+isinstance
+dir(isinstance)
+help(isinstance)
+isinstance(a, int)
+a
+isinstance(1, int)
+if isinstance(1, int):
+  print "Its integer"
+if isinstance(1, int):
+  print("Its integer")
+dir(print)
+help(print)
+print(1,2,3,4)
+print(1,2,3,4, sep=",")
+print(1,2,3,4)
+help(print)
+print(1,2,3 4)
+print(1,2,34)
+for 'i' in ['i', 'j']: 
+  print 'i'
+for 'i' in ['i', 'j']:
+  print 'i'
+for i in ['i', 'j']:
+for 'i' in ['i', 'j']:
+  print('i')
+for i in ['i', 'j']:
+  print('i')
+stu = [
+ {'name': 'stu1',
+  'age': 20
+},
+{'name': 'stu2',
+ 'age': 23
+},
+{'name': 'stu3',
+'age': 24
+},
+{'name': 'stu4',
+'age': 22
+}
+]
+stu = [
+		{
+		  	'name': 'stu1',
+		   	'age': 20
+	 	},
+	 	{
+	 		'name': 'stu2',
+	  		'age': 23
+	 	},
+	 	{	
+	 		'name': 'stu3',
+	 		'age': 24
+	 	},
+	 	{	
+	 		'name': 'stu4',
+	 		'age': 22
+	 	}
+]
+stu
+stu[0]
+stu[0]['age']
+stu
+type(st)
+type(stu)
+len(stu)
+stu[0]
+stu[0]['age']
+for i in stu:
+   print i
+for i in stu:
+   print (i)
+for i in stu[0:2]:
+   print (i)
+range(10, 20)
+l = range(10, 20)
+l
+l = list(range(10, 20))
+l
+type(l)
+type(range(1))
+l = list(range(10, 20))
+l
+l = list(range(10, 20))
+l = range(10, 20)
+l
+for i in l:
+  print i
+for i in l:
+  print(i)
+l = range(10, 20)
+l
+l = list(range(10, 20))
+l
+l = range(10, 20)
+l
+l[0]
+l[0:2]
+l = list(range(10, 20))
+l
+l[-1]
+l[-1:]
+l[-1::-1]
+l[::-1]
+l[-2::-1]
+l[-1::-1]
+l[::-1]
+i = input("enter your word:")
+madam
+i
+if i == i[::-1]:
+  print "It is a palindrome!"
+if i == i[::-1]:
+  print("It is a palindrome!")
+else:
+  print("It is not a palindrome!")
+i = input("enter your word:")
+credo
+if i == i[::-1]:
+  print("It is a palindrome!")
+else:
+  print("It is not a palindrome!")
+i
+i[::-1]
+i = input("enter your word:")
+madam
+i[::-1]
+for i in range(10, 21):
+  print(i)
+for i in range(10, 21, 5):
+  print(i)
+len(range(10, 21, 5):)
+len(range(10, 21, 5))
+len(range(10, 21))
+L = range(10, 21)
+l = range(10, 21)
+l
+for i in enumerate(range(10, 21, 5)):
+  print(i)
+for i, v in enumerate(range(10, 21, 5)):
+  print("index is", i, "value is", v)
+a = (1)
+a
+a = (1, 2)
+a
+a = (1)
+type(a)
+a = (1, 2)
+type(a)
+a, b = (1, 2)
+a
+b
+stu
+for i in stu:
+  print(i)
+for i in stu:
+  print(i['age'])
+for i in stu:
+  print(i['name'], i['age'])
+stu[2]['age']
+grp = []
+for i in stu:
+  if i['age'] > 22:
+    grp.append(i)
+grp
+stu
+for i in stu[0]:
+  print(i)
+for i in stu[0]:
+k = stu[0]
+k
+for i in k:
+   print(i)
+for i in k:
+   print("key is",i, "value is",k[i]
+)
+dir(k)
+for k,v in k.items():
+   print(k,v)
+import readline
+import os
+os.getcwd()
+readline.write_history_file('/home/mohideen/Desktop/pyScript/eg1.txt')

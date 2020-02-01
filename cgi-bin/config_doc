@@ -1,0 +1,65 @@
+Enable CGI Scripts in the Apache Configurations
+Overview: Two things need to be set up, in order to run CGI scripts on a Linux server with Apache:
+
+Apache needs to be configured to allow CGI scripts to run.
+The script needs to be uploaded to the correct location, and given the correct permissions.
+
+Apache Settings for CGI Scripts on CentOS 7
+
+Open the httpd.conf file for editing:
+
+sudo nano /etc/httpd/conf/httpd.confmixed
+
+"""
+Find the section which reads:
+"""
+
+#
+# "/var/www/cgi-bin" should be changed to whatever your ScriptAliased
+# CGI directory exists, if you have that configured.
+#
+<Directory "/var/www/cgi-bin">
+    AllowOverride None
+    Options None
+    Require all granted
+</Directory>mixed
+
+"""
+Add the following two lines to this section:
+"""
+
+Options +ExecCGI
+AddHandler cgi-script .cgi .pl .pymixed
+
+"""
+The first line tells Apache to execute CGI files which are uploaded to the /var/www/cgi-bin directory. The second line tells Apache that any file ending in .cgi, .pl, or .py is considered a CGI script.
+"""
+
+The section now reads:
+
+#
+# "/var/www/cgi-bin" should be changed to whatever your ScriptAliased
+# CGI directory exists, if you have that configured.
+#
+<Directory "/var/www/cgi-bin">
+    AllowOverride None
+    Options +ExecCGI
+    AddHandler cgi-script .cgi .pl
+    Require all granted
+</Directory>
+
+"""
+Save and exit the file. Then restart Apache so that the changes take effect:
+"""
+
+sudo systemctl restart httpdmixed
+
+Apache Settings for CGI Scripts on Ubuntu 16.04
+On Ubuntu 16.04, Apache is configured by default to allow the execution of CGI scripts in the designated /usr/lib/cgi-bin directory. You will not need to change any Apache configurations.
+
+However, Apache's CGI module will need to be enabled before CGI scripts can run. To do this, you will need to create a symlink:
+
+sudo ln -s /etc/apache2/mods-available/cgi.load /etc/apache2/mods-enabled/ mixed
+Then restart Apache so that the changes take effect:
+
+sudo systemctl restart apache2

@@ -1,0 +1,306 @@
+print ""
+print("credo")
+raw_input
+raw_input()
+input()
+10
+10/20
+10//20
+print
+help(pritn)
+help(print)
+pprint
+import pprint
+dir(pprint)
+help(print)
+print "1"
+print("1", "2", "3")
+print("1", "2", "3", sep=",")
+print("1", "2", "3", sep="|")
+a = [1,2,3,4,5]
+"".join
+"".join(a)
+"".join(a)a
+a
+"".join(a)
+"".join([i for i in a])
+"".join([str(i) for i in a])
+s = [str(i) for i in a]
+s
+a
+"".join(a)
+"".join(s)
+"|".join(s)
+",".join(s)
+a = [
+1
+,
+2,
+3
+,
+4
+]
+s = "a
+s = "a \
+end"
+s
+s = """a 
+how are you"""
+s
+v = 1
+v=1
+v = 1
+V
+raw_input
+a = input("Enter your key:")
+y
+a == 'Y'
+a == 'y'
+a.lower() == 'y'
+a = input("Enter your key:")
+Y
+a
+a.lower() == 'y'
+10/2
+1/2
+1//2
+print("1")
+print ("1")
+print "1"
+a = 10
+A
+B = 20
+b
+print = 1
+if = 1
+If = 1
+printt()
+print()
+print(1)
+a = 10
+a = 10;
+a = 10;b=9
+a = 10
+l = [
+1,
+2,
+3
+]
+l
+a = 100
+a
+a == 200
+c == 200
+a == 200
+a == 100
+a > 50
+a < 50
+a == None
+None == ''
+None == 
+None == 0
+class = 1
+False = 1
+True = 1
+None = 1
+import readline;readline.write_history_file('/home/mohideen/Desktop/pyScript/eg6.txt')
+exit()
+a = input()
+10
+a
+d = int(a) if a.isdigit() else 0
+d
+type(d)
+a = input()
+credo
+a
+d = int(a) if a.isdigit() else 0
+d
+a = input()
+velachery
+A
+a
+d = int(a) if a.isdigit() else 0
+d
+a = input()
+100
+a
+d = int(a) if a.isdigit() else 0
+d
+a
+a = 'credo'
+int(a)
+a.isdigit()
+dir('')
+d = int(a) if a.isdigit() 1 if a.isalnum() else 0
+d = int(a) if a.isdigit() else 1 if a.isalnum() else 0
+d
+a = input()
+10
+d
+d = int(a) if a.isdigit() else 1 if a.isalnum() else 0
+d
+a = input()
+credo10
+a
+d = int(a) if a.isdigit() else 1 if a.isalnum() else 0
+d
+a = input()
+credo
+d = int(a) if a.isdigit() else 1 if a.isalnum() else 0
+d
+a
+a.isalnum
+a.isalnum()
+help(a.isalnum)
+help(a.isalpha)
+'a1'.isalnum()
+'a'.isalnum()
+'1'.isalnum()
+'1a'.isalnum()
+'1a.'.isalnum()
+a = input()
+credo10.0
+a
+d = int(a) if a.isdigit() else 1 if a.isalnum() else 0
+d
+l
+l = range(10)
+l
+for i in l:
+   print i
+for i in l:
+   print(l.index(i))
+for i in l:
+   print(l.index(i), i)
+for i in range(10, 21):
+   print(l.index(i), i)
+for i in range(10, 21):
+l = range(10, 21)
+for i in l:
+   print(l.index(i), i)
+for i in enumerate(l):
+  print(i)
+for i,v in enumerate(l):
+  print(i, v)
+d
+dict((1,2))
+dict(zip((1,2), (2,3))
+)
+l
+enumerate(l)
+for i in enumerate(l):
+   print(i)
+dict(enumerate(l))
+h = ['name', 'age', 'address']
+v = ['stu1', 10, 'chennai']
+w = ['stu2', 12, 'kanchii']
+dict(h)
+help(zip)
+zip(h, v)
+tuple(zip(h, v))
+dict(zip(h, v))
+v
+v.append(10)
+v
+dict(zip(h, v))
+tuple(zip(h, v))
+tuple(zip(h, w))
+d = dict(zip(h, v))
+d
+for i in d:
+  print(i)
+for i in d:
+  print(i, d[i])
+for i in d.items():
+  print(i, d[i])
+for i in d.items():
+  print(i)
+a = 0
+while a:
+  print a
+a = 1
+while a:
+  print(a)
+  a+=1
+a = 1
+while a:
+  print(a)
+  a+=1
+  if a == 100:
+    a = 0
+a
+if a == 5:
+  print 'Yes'
+if a == 5:
+  print ('Yes')
+else:
+  print ('No)
+if a == 5:
+  print ('Yes')
+else:
+  print ('No')
+1 == '1'
+if isinstance(a, int) and a < 10:
+  print ('Yes')
+else:
+  print ('No')
+a
+type(a)
+help(isinstance)
+a = 11
+if isinstance(a, int) and a < 10:
+  print ('Yes')
+else:
+  print ('No')
+if isinstance(a, int) or a < 10:
+  print ('Yes')
+else:
+  print ('No')
+for i in []:
+  
+for i in []:
+   print (1)
+for i in []:
+   #print (1)
+for i in []: #will implement in future
+  pass
+for i in []: #will implement in future
+  print(i)'
+for i in [1,2,3]: #will implement in future
+  print(i)
+  pass
+  print('after',i)
+for i in [1,2,3]:
+  print(i)
+  if i == 2:
+     continue
+  print('after', i)
+for i in ['orange', 'apple', 'mango']:
+  print('fruit name', i)
+  if i is 'orange':
+     print('i got orange')
+     continue
+  print('loop will continue')
+for i in ['orange', 'apple', 'mango']:
+  print('fruit name', i)
+for i in ['orange', 'apple', 'mango']:
+  print('fruit name', i)
+  if i is 'apple':
+     print('i got apple')
+     break
+for i in ['orange', 'apple', 'mango']:
+  print('fruit name', i)
+  if i is 'apple':
+    pass
+    print('i got apple')
+  print('loop will continue')
+for i in ['orange', 'apple', 'mango']:
+  print('fruit name', i)
+  if i is 'apple':
+     print('i got apple')
+     break
+  print('loop will continue')
+import os
+import readline
+readline.write_history_file('data_types.txt')

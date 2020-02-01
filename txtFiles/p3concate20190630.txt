@@ -1,0 +1,391 @@
+print ""
+print("credo")
+raw_input
+raw_input()
+input()
+10
+10/20
+10//20
+print
+help(pritn)
+help(print)
+pprint
+import pprint
+dir(pprint)
+help(print)
+print "1"
+print("1", "2", "3")
+print("1", "2", "3", sep=",")
+print("1", "2", "3", sep="|")
+a = [1,2,3,4,5]
+"".join
+"".join(a)
+"".join(a)a
+a
+"".join(a)
+"".join([i for i in a])
+"".join([str(i) for i in a])
+s = [str(i) for i in a]
+s
+a
+"".join(a)
+"".join(s)
+"|".join(s)
+",".join(s)
+a = [
+1
+,
+2,
+3
+,
+4
+]
+s = "a
+s = "a \
+end"
+s
+s = """a 
+how are you"""
+s
+v = 1
+v=1
+v = 1
+V
+raw_input
+a = input("Enter your key:")
+y
+a == 'Y'
+a == 'y'
+a.lower() == 'y'
+a = input("Enter your key:")
+Y
+a
+a.lower() == 'y'
+10/2
+1/2
+1//2
+print("1")
+print ("1")
+print "1"
+a = 10
+A
+B = 20
+b
+print = 1
+if = 1
+If = 1
+printt()
+print()
+print(1)
+a = 10
+a = 10;
+a = 10;b=9
+a = 10
+l = [
+1,
+2,
+3
+]
+l
+a = 100
+a
+a == 200
+c == 200
+a == 200
+a == 100
+a > 50
+a < 50
+a == None
+None == ''
+None == 
+None == 0
+class = 1
+False = 1
+True = 1
+None = 1
+import readline;readline.write_history_file('/home/mohideen/Desktop/pyScript/eg6.txt')
+exit()
+def f() -> str:
+   return "ok"
+f()
+def f() -> str:
+   return 1
+f()
+type(f())
+items = {"A": 1, "B": 2, "C": 3}
+u_items = {"D": 4, "B": 4, "E": 8, "C": 4}
+items.update((k + '_1' if k in items else k, v) for k, v in u_items.items())
+items
+n_items = {"C":7, "B":9}
+items.update((k + '_1' if k in items else k, v) for k, v in n_items.items())
+items
+items.update((k + '_1' if k in items else k, v) for k, v in u_items.items())
+items
+items.update((k + '_1' if k in items else k, v) for k, v in u_items.items())
+items
+items = {"A": 1, "B": 2, "C": 3}
+u_items = {"D": 4, "B": 4, "E": 8, "C": 4}
+items.update((k + '_1' if k in items else k, v) for k, v in u_items.items())
+items
+n_items = {"C":7, "B":9}
+for k, v in n_items.items():
+   print k
+for k, v in n_items.items():
+   print(k)
+for k, v in n_items.items():
+   print(k)
+for k, v in n_items.items():
+   k in items
+for k, v in n_items.items():
+   [i for i in items if k in i]
+for k, v in n_items.items():
+   max[i for i in items if k in i]
+for k, v in n_items.items():
+   max(i for i in items if k in i)
+1items.update(max(_k for _k in items if k in _k), v) for k, v in u_items.items())
+for k, v in n_items.items():
+   max(i for i in items)
+for k, v in n_items.items():
+   max(i for i in items)
+for k, v in n_items.items():
+   print(k)]
+for k, v in n_items.items():
+   print(k)
+for k, v in n_items.items():
+   max(k for k in items)
+for k, v in n_items.items():
+   max(k for i in items)
+n_items
+items
+for k, v in n_items.items():
+   max(i for i in items if k in i)
+[ max(i for i in items if k in i) for k,v in n_items.items()]
+1items.update(max(_k for _k in items if k in _k), v) for k, v in u_items.items())
+[ max(i for i in items if k in i) for k,v in u_items.items()]
+items = {"A": 1, "B": 2, "C": 3}
+u_items = {"D": 4, "B": 4, "E": 8, "C": 4}
+[ max(i for i in items if k in i) for k,v in u_items.items()]
+[ max(i for i in items if k in i.keys()) for k,v in u_items.items()]
+[k for k,v in u_items.items()]
+[k for k,v in u_items.items() if k in items]
+[k for k,v in u_items.items() if k in items else 0]
+[k for k,v in u_items.items()]
+[items.keys().index(k) for k,v in u_items.items()]
+[items.keys() for k,v in u_items.items()]
+[dir(items.keys()) for k,v in u_items.items()]
+[k for k,v in u_items.items()]
+[k in items for k,v in u_items.items()]
+items1 = {"A": 1, "B_1": 2, "C": 3}
+[k in items1 for k,v in u_items.items()]
+[k for k,v in u_items.items()]
+items.update((k + '_1' if k in items else k, v) for k, v in n_items.items())
+items
+items = {"A": 1, "B": 2, "C": 3}
+items.update((k + '_1' if k in items else k, v) for k, v in u_items.items())
+items
+n_items = {"C":7, "B":9}
+(k + '_1' if k in items else k, v) for k, v in n_items.items()
+k + '_1' if k in items else k, v) for k, v in n_items.items()
+(k + '_1' if k in items else k, v) for k, v in n_items.items())
+((k + '_1' if k in items else k, v) for k, v in n_items.items())
+[(k + '_1' if k in items else k, v) for k, v in n_items.items()]
+items
+for k,v in n_items.items():
+    print (k)
+[(k + '_1' if k in items else k, v) for k, v in n_items.items()]
+[(i for k in items) for k, v in n_items.items()]
+[max(i for k in items) for k, v in n_items.items()]
+[max(i for i in items if k in i) for k, v in n_items.items()]
+items
+n_items = {"C":7, "B":9, 'D': 5}
+[max(i for i in items if k in i) for k, v in n_items.items()]
+n_items = {"C":7, "B":9, 'D': 5, 'X':1}
+[max(i for i in items if k in i) for k, v in n_items.items()]
+[max(i if k in i else 0 for i in items) for k, v in n_items.items()]
+[max(i if k in i else '' for i in items) for k, v in n_items.items()]
+[max(i if k in i else '' for i in items), v for k, v in n_items.items()]
+[(max(i if k in i else '' for i in items), v) for k, v in n_items.items()]
+[(max(i if k in i else '' for i in items) + '_1', v) for k, v in n_items.items()]
+[(max(i if k in i for i in items), v) for k, v in n_items.items()]
+[(max(i if k in i else None for i in items), v) for k, v in n_items.items()]
+[max(i for i in items if k in i) for k, v in n_items.items()]
+[k if k in i else None for k, v in n_items.items()]
+[k if k in items else None for k, v in n_items.items()]
+for k, v in n_items.items():
+  print (k)
+for k, v in n_items.items():
+  if k in items:
+    print (k)
+for k, v in n_items.items():
+  if k in items:
+    print (max(i for i in items if k in i))
+for k, v in n_items.items():
+  _k = (k, v)
+  if k in items:
+     _k = (max(i for i in items if k in i)+'_1', v)
+  items.update(_k)
+for k, v in n_items.items():
+  _k = (k, v)
+  if k in items:
+     _k = (max(i for i in items if k in i)+'_1', v)
+  print (_k)
+for k, v in n_items.items():
+  _k = (k, v)
+for k, v in n_items.items():
+  _k = {k: v}
+  if k in items:
+     _k = {max(i for i in items if k in i)+'_1': v}
+  print (_k)
+for k, v in n_items.items():
+  _k = {k: v}
+  if k in items:
+     _k = {max(i for i in items if k in i)+'_1': v}
+  items.update(_k)
+items
+False
+False = 1
+help('class')
+print 1
+help('print')
+print(1,2)
+print(1,2, sep="*")
+print(1,2, sep="*", end="\n")
+print(1,2 sep="*", end="\n")
+help('print')
+import sys
+l = range(0, 101, 5)
+l
+sys.getsizeof(l)
+help(range)
+l
+dir(l)
+l
+for i in l:
+  print(i)
+l
+list(l_
+list(l)
+l = range(0, 101, 5)
+l
+help('input')
+l = input('Enter your age:')
+10
+l
+int(l)
+import readline
+readline.write_history_file('/home/mohideen/Desktop/pyScript/txtFiles/dataTypes20190629Python3.txt')
+help('input')
+l = input('Enter your age:')
+10
+help('input')
+help('print')
+print 1
+print(1)
+print(1,2)
+print(1,2, sep="*")
+print(1,2, sep="A")
+print(1,2, sep="|")
+print(1,2, sep=" ")
+print(1,2)
+print(1,2, sep="  ")
+raw_input
+input
+help(input)
+input
+a = input("Enter your age:")
+credo
+a
+a.isdigit()
+a = int(input("Enter your age:"))
+10
+a
+a = int(input("Enter your age:"))
+credo
+a = input("Enter your age:")
+credo
+a.isdigit()
+a = input("Enter your age:")
+10
+a.isdigit()
+l
+d = {'age': 10}
+d
+d.items()
+d
+help(d.update)
+d
+d.update(1)
+d.update('1')
+d.update(('1',2))
+d.update({'age': 10, 'location': 'chennai'})
+d
+d.update({'age': 20, 'location': 'chennai'})
+d
+d.update({'age': 20, 'location': 'velachery', 'name': 'credo'})
+d
+d['age'] = 12
+d
+set
+help(set)
+l
+l = [1,2,3,1,2,12,2,5,7,6,7,10, 11, 10, 1]
+l.count(1)
+set(l)
+s = set(l)
+s
+type(s)
+dir(s)
+help(s.pop)
+s
+s.pop()
+s
+s.pop(2)
+s.pop()
+s
+help(s.pop)
+dir(s)
+s.update(1)
+s.update('1')
+s
+s.update([1])
+s
+s.update([1,2,3])
+s
+name = "credo"
+address = "chennai"
+name+address
+name+ ' ' + address
+name + 1
+s = "%s %s %d"%(1, 2, 3)
+s
+s = "%s %s %d"%(1, 2, '3')
+s = "%s %s %d"%('1', [2], '3')
+s = "%s %s %d"%('1', [2], 3)
+s
+s = "%s"%'1'
+s
+s = "%s"%('1')
+s = "%s"%'1', 3, 7
+s
+s = "%s %d"%'1', 3, 7
+s = "%s %d %s"%'1', 3, 7
+s = "%s %d %s"%('1', 3, 7)
+s
+str(1) + str(2)
+1+2
+"%s %s"%(1,2)
+str(1) + ' '+ str(2)
+"%s"%(1,2)
+"%s %s"%(1,2)
+"%s %s %s"%(1,2)
+"%s %s %s"%(1, 2, 3)
+"%s %s %s"%([1, 2, 3])
+"%s %s %s"%([1, 2, 3], 'a', 'b')
+"%s %s %s"%([1, 2, 3.5])
+"%s %s %s"%([1, 2, 3.5], 3.5, 10.5)
+"%s %s %f"%([1, 2, 3.5], 3.5, 10.5)
+"%s %s %f"%([1, 2, 3.5], 3.5, '10.5')
+"%s %s %s"%([1, 2, 3.5])
+"%s %s %s"%(*[1, 2, 3.5])
+import readline
+readline.write_history_file('/home/mohideen/Desktop/pyScript/txtFiles/p3concate20190630.txt')

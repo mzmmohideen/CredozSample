@@ -1,0 +1,291 @@
+first = 1
+name = 2
+first-name 
+first_name 
+first_name = 1
+first_name 
+first-name = 1
+a = 10
+a/5
+a
+a = a/5
+s = "credo"
+dir(a)
+a.denominator
+a.denominator()
+a.denominator
+a
+a.numerator
+s
+s = "credo"
+s
+s = "credo system"
+s
+s = "credo
+s = """credo
+system
+"""
+s
+"\t"
+dir(s)
+s.count
+help(s.count)
+s
+n = "josephin"
+n.count('j')
+n = n+n
+n
+n.count('j')
+n.count('j', 1)
+n.count('j')
+n.count('j', 1)
+n.count('j', 0)
+help(s.count)
+n.count('j', 0)
+n.count('j', 0, 5)
+n.count('j', 0, 9)
+help(s.count)
+dir(s)
+s
+help(s.find)
+s
+n
+n.find('j')
+n.isalnum
+n.isalnum()
+n.isalpha()
+n.isdigit()
+n = "joshpin andrew"
+n.split(' ')
+help(n.split)
+s = raw_input()
+credo
+s
+s = raw_input("Enter your name")
+credo
+s
+s = input()
+10
+s
+type(s)
+s = raw_input()
+10
+type(s)
+help(raw_input)
+help(input)
+eval('10')
+eval('name')
+eval('joshpin')
+joshpin = 'thirunelveli'
+eval('joshpin')
+s = raw_input("Enter your Age:")
+10
+s
+s*365
+type(s)
+s = input("Enter your Age:")
+10
+s*365
+s = int(raw_input("Enter your Age:"))
+10
+s
+s = int(raw_input("Enter your Age:"))
+credo
+s = '10'
+type(s)
+s.isdigit()
+s
+len(s)
+s = input("Enter your Age:")
+10
+s
+type(s)
+s = input("Enter your Age:")
+help(print)
+help('print')
+print 1
+print (1)
+print(1)
+s
+c
+n
+dir(n)
+n.replace('j', 'J')
+help(n.replace)
+n
+n = n.replace('j', 'J')
+n
+n[0]
+n[10]
+l
+n
+l = [n, n, n, 'n', 'n']
+l
+n
+list(n)
+l
+l[0]
+n
+n[0]
+l
+l[0]
+l[0][0]
+l
+len(l)
+help(len)
+len(n)
+n[14]
+n[14-1]
+n[13]
+n
+l = list(n)
+l
+n[0]
+l[0]
+l[0] = 'joshpin andrew'
+l
+n[0] = 'joshpin andrew'
+l
+n
+l = list(n)
+t
+t = tuple(s)
+t = tuple(n)
+t
+t = tuple(l)
+t
+t = ('j', 'k', 'l', 'm')
+dir(l)
+dir(t)
+l
+t
+t = tuple(l)
+l
+t
+list(t)
+l
+t
+l[0] = 'Joshpin'
+l
+t[0] = 'Joshpin'
+t[0]
+l[0]
+d = {'name': 'joshpin'}
+d
+d[0]
+d[0] = 'thirunelveli'
+d
+d[0]
+d['name']
+dir(d)
+del d[0]
+d
+l
+l[0]
+n
+n[0]
+n[-1]
+l[-1]
+t
+t[0]
+t[-1]
+t[0]
+t
+n
+n[0]
+n[0:6]
+n[0:7]
+n[0:7:2]
+n
+n[::10]
+len(n)
+n[::14]
+n[::13]
+n[:-1:]
+n[::13]
+n[-1]
+n[0:5]
+n[0:5:-1]
+n[0::-1]
+n[0::1]
+n[::-1]
+n[::-2]
+n[::-3]
+l
+l[::-1]
+t[::-1]
+first = 'joshpin'
+last = 'andrew'
+first+name
+first+last
+first+' '+ last
+name
+first+name
+"%s"%first
+"%s"
+"%s"%'a'
+"%s"%a
+"%d"%a
+a
+"%d"%name
+"%d"%first
+"%s"%[]
+"%s"%{}
+"%s"%()
+"%s"%(())
+"%s"%1
+"%d"%1
+"%s %s"%(first, last)
+"%s %s"%first, %last
+"%s %s"%(first, last)
+"%s %s"%([first, last])
+"%s %s"%(*[first, last])
+"%s %s"%([first, last])
+"%s %s"%([first, last], 1)
+"%s"%([first, last])
+"%s %s"%(first, last)
+"%2.s %s"%(first, last)
+"%2.5s %s"%(first, last)
+"%.5s %s"%(first, last)
+"%1.5s %s"%(first, last)
+"%2.5s %s"%(first, last)
+"%6.5s %s"%(first, last)
+"%5s %s"%(first, last)
+"%.1s %s"%(first, last)
+"%2.1s %s"%(first, last)
+"%-2.1s %s"%(first, last)
+dir("{}")
+"{}".format
+help("{}".format)
+"{}".format(10)
+"{}".format(first)
+"{0}".format(first)
+"{} {}".format(first)
+"{} {}".format(first, last)
+"{0} {1}".format(first, last)
+"{0} {1}".format(first)
+"{0} {0}".format(first)
+"{0} {0:3}".format(first)
+"{0} {0:3s}".format(first)
+"{0} {0:3.3}".format(first)
+"{0} {0:.3}".format(first)
+"{0} {0:5.3}".format(first)
+"{0} {0:-5.3}".format(first)
+"{0} {0:5.3}".format(first)
+"{0} {0:5-.3}".format(first)
+"{0} {0:5.3}".format(first)
+"{0} {0:5.-3}".format(first)
+"{0} {0:5.3}".format(first)
+"{0} {0}".format(first)
+"{} {}".format(first, last)
+"{} {}".format([first, last])
+"{0} {0}".format([first, last])
+"{} {}".format([first, last])
+"{} {}".format(*[first, last])
+"{} {}".format({'first_name': first, 'last_name':last})
+"{first_name} {}".format({'first_name': first, 'last_name':last})
+"{0} {0}".format({'first_name': first, 'last_name':last})
+"{first_name} {last_name}".format(**{'first_name': first, 'last_name':last})
+import readline
+dir(readline)
+readline.write_history_file('/home/mohideen/Desktop/pyScript/data_types20191206.txt')

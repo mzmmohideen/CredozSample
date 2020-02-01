@@ -1,0 +1,973 @@
+a = 10
+a/5
+a
+a = a/5
+a
+a/5
+a
+a = 10
+a/5
+a
+a = 10.5
+a/5
+a
+dir(a)
+a.is_integer()
+s = "credo"
+s
+s[0]
+len(s)
+s[4]
+s[len(s) -1 ]
+s[-1 ]
+s[-2 ]
+s
+dir(s)
+s.find('c')
+help(s.find)
+s = 'malola krishnan'
+s
+s.find('l')
+help(s.find)
+s.find('z')
+s
+len(l)
+len(s)
+s[15]
+s[14]
+s[::]
+s[0::]
+s[-2::]
+s
+s[-2:10:]
+s[-2:10:-1]
+s[::2]
+s
+s[::5]
+s[0:10:-1]
+s
+s[-1:10:-1]
+s[-1::-1]
+s[::-1]
+s[::1]
+s[::-1]
+s[::-1] == s
+m = 'madam'
+m[::-1] == m
+s[-1:0:-1]
+s
+s[-1::-1]
+s[::-1]
+s
+dir(s)
+s.count('l')
+help(s.count)
+help(s.endswith)
+s.endswith('n')
+s.endswith('m')
+s
+dir(s)
+help(s.replace)
+s.replace('l', 'L')
+s.replace('l', 'L', 1)
+s
+help(s.replace)
+s
+v = "who's"
+v
+v = 'who's'
+v = "who's"
+v
+v = "Hello
+v = """Hello
+welcomes you all!
+chennai
+adf
+asd
+"""
+v
+v[0]
+v[5]
+for i in v:
+  print i
+v
+help(v)
+help('')
+dir('')
+s
+s*3
+dir('')
+dir(s)
+dir(1)
+dir('')
+s.center
+help(center)
+help('center')
+center = 10
+help(center)
+help([].pop)
+help(hash)
+dir(__builtins__)
+int
+help('float')
+float('1')
+a = '1'
+type(a)
+float(a)
+a = 1
+type(a)
+float(a)
+type(a)
+a=float(a)
+type(a)
+int('abcd')
+int('1')
+a
+name = 'credo'
+dir(name)
+name.isdigit()
+help([].pop)
+a = []
+help(a.pop)
+s
+help(s.center)
+s
+name = 'malola krishnan'
+len(name)
+name.center()
+help(s.insert)
+help([].insert)
+[].insert1()
+name.center()
+[].insert()
+name.center()
+name.center(50)
+len(name.center(50))
+name.center(50, "*")
+l = []
+l= [1, 2, 3, 4, name, 'name', {}, ()]
+name
+l
+l[0]
+l[-1]
+len(l)
+l[8]
+l[7]
+l[0:5]
+l[0:5:2]
+l[0]
+type(l[0])
+type(l[1])
+type(l[4])
+l[0][0]
+dir([])
+dir(name)
+dir(1)
+1[0]
+l
+type(l)
+type(l[0])
+l[0]
+l[0][0]
+l[4]
+type(l[4])
+l[4][0]
+len(l[4])
+l
+l.append('')
+l
+l[-1]
+l[-1][0]
+l.append('j')
+l
+l[-1]
+type(l[-1])
+l[-1][0]
+l[-1][1]
+l[-1]
+l[-1][0]
+l[4]
+l[4][0]
+l[4][::-1]
+l
+dir(l)
+l
+help(l.append)
+l.append('credo')
+l
+len(l)
+l.pop()
+l
+len(l)
+l.pop(0)
+l
+len(l)
+l.insert
+help(l.insert)
+l
+l.insert(4, 'credo')
+l
+len(l)
+help(l.insert)
+l
+l.remove
+help(l.remove)
+l
+l.append(2)
+l.append([3,4])
+l
+l.extend
+help(l.extend)
+l
+l.extend([3,4])
+l
+l.extend(l[0:3])
+l
+l = [2, 3, 4, 'malola krishnan', 'credo', 'name', {}, (), '', 'j']
+l
+l.extend([1,2,3,4])
+l
+l.append([1,2,3,4])
+l
+l.pop()
+len(l)
+l
+l.append([1,2,3,4])
+len(l)
+l.pop()
+l
+l.extend([1,2,3,4])
+len(l)
+l
+l.count(1)
+l.count(2)
+l.remove(2)
+l
+help(l.remove)
+l.remove(20)
+l.remove(1)
+l
+l.remove(1)
+l
+l.remove(1)
+l.remove('credo')
+l
+l[2]
+l[2][::-1]
+l
+l[2] = l[2][::-1]
+l
+name
+name[2]
+name[2] = 'A'
+range(100)
+[i for i in range(100) if i%2==0]
+range
+print
+help('print')
+print 1
+print (1)
+print(1)
+help('print')
+print 1,2
+range(10)
+help(range)
+range(10)
+range(10, 20)
+range(0, 101, 5)
+import sys
+sys.getsizeof
+l = range(0, 101, 5)
+l
+sys.getsizeof(l)
+help(range)
+l
+for i in l:
+  print(i)
+xrange
+help(xrange)
+xrange(1, 100, 5)
+list(xrange(1, 100, 5))
+l = raw_input("Enter you name:")
+antony
+l
+help('raw_input')
+l = raw_input("Enter you Age:")
+10
+l
+type(l)
+help('input')
+eval('1')
+l = input("Enter you Age:")
+10
+l
+l = input("Enter you name:")
+antony
+antony = 10
+l = input("Enter you name:")
+antony
+l
+import readline
+readline.write_history_file('/home/mohideen/Desktop/pyScript/txtFiles/dataTypes20190629Python2.txt')
+name
+l
+name
+type(name)
+name[0]
+name.find('m')
+name[name.find('m')]
+dir('')
+dir(name)
+n = 1
+dir(n)
+n = name
+n
+dir(n)
+name
+name[0]
+name[0:5]
+name[0:5:2]
+name[0:5:-1]
+name
+name.replace('m','M')
+name
+dir(__builtins__)
+n
+n = '1'
+int(n)
+int(name)
+list(name)
+list(1)
+llist(name)
+l
+l = list(name)
+l
+help(l.pop)
+l.pop()
+l
+l.pop(1)
+l
+l.remove('m')
+l
+l.append('100')
+l
+l.append([1,2,3,'100'])
+l
+l.pop()
+l
+l.extend([1,2,3,'100'])
+l
+help(l.extend)
+l
+len(l)
+l.append('credo')
+len(l)
+l
+l.extend('credo')
+len(l)
+l
+l[3]
+l[3] = 'A'
+l
+help(print)
+help('print')
+print 1
+print (1)
+print(1)
+print(1, 2)
+print 1, 2
+l = raw_input("Enter You name:")
+l
+l = raw_input("Enter You name:")
+catherine
+l
+help(l)
+help('raw_input')
+input
+help(input)
+eval
+help('eval')
+eval('name1')
+eval('name')
+eval('1')
+l
+tuple(l)
+tuple(10)
+t = tuple(l)
+t
+len(l)
+len(t)
+type(l)
+type(t)
+l
+l = list(l)
+l
+t
+type(l)
+type(t)
+dir(l)
+dir(t)
+t.pop()
+t
+t.count('a')
+l
+l[0] = 'C'
+l
+t[0]
+t[0:5]
+t[0] = 'C'
+dir(t)
+i = 10
+dir(i)
+i[0]
+dir(t)
+t[0]
+t.__class__()
+t.__class__
+class Sum:
+  pass
+help(Sum)
+help(t)
+dir(Sum)
+Sum.__doc__
+class Sum:
+   def __doc__(self):
+class Sum:
+   """
+     This is a sample class.. which going to demonstrate about doc attirbutes
+   """
+Sum.__doc__
+help(Sum)
+dir(t)
+t.__doc__
+help(t)
+#till before we have seen about tuple
+c
+print "Will see about dict"
+d = {
+'name': 'credo systemz',
+'age': 10,
+'address': 'Chennai'
+}
+d
+type(d)
+l
+l[0]
+d['age']
+d
+d = {
+'age': 10,
+'name': 'credo systemz',
+'address': 'Chennai',
+'age': 12
+}
+d
+dir(D)
+dir(d)
+d.items()
+help(d.items)
+d.iteritems()
+list(d.iteritems())
+import sys
+sys.getsizeif
+sys.getsizeof
+it = d.items()
+ii = d.iteritems()
+sys.getsizeof(ii)
+sys.getsizeof(it)
+dir(d)
+d
+help(d.keys)
+d.keys()
+d.values()
+help(d.viewkeys)
+d.viewkeys()
+help(d.viewkeys)
+help(d.pop)
+d
+d.pop()
+d.pop('age1')
+d.pop('age1', 'Not exist')
+d.pop('age', 'Not exist')
+d
+help(d.update)
+set([1,2,34,1,2,2])
+"%s %s %s"%(*[1, 2, 3.5])
+"%s %s %s"%([1,2,3])
+"%s %s %s"%([1,2,3], 3, 2)
+"%s %s %s"%(*[1,2,3])
+"{} {}"
+dir('')
+help('{} {}'.format)
+'{} {}'.format(1, 2)
+'{} {}'.format(1, 2, 'credo')
+'{} {} {}'.format(1, 2, 'credo')
+'{} {} {}'.format(1, 2)
+'{0} {1} {2}'.format(1, 2, 3)
+'{} {} {}'.format(1, 2, 3)
+"""welcome {0},
+"""Dear {0},
+Welcome to {1}.. {0} you're doing great.. we were located at {2}
+"""
+s = """Dear {0},
+Welcome to {1}.. {0} you're doing great.. we were located at {2}
+"""
+s
+s.format(1, 2, 3, 4)
+s.format(1, 2, 3)
+s.format('antony', 'credo', 'velachery')
+"{} {}".format(1, 2)
+"{} {}".format(1)
+"{0} {1}".format(1, 2)
+"{0} {0}".format(1)
+"{1} {1}".format(1)
+"{} {}".format([1,2])
+"{} {}".format(*[1,2])
+"{} {}".format(*[1,2, 3])
+"{} {} {}".format(*[1,2, 3])
+"{} {} {} {}".format(*[1,2, 3])
+"welcome {name}".format({'name': 'parthiban'})
+"welcome {}".format({'name': 'parthiban'})
+"welcome {name}".format(**{'name': 'parthiban'})
+"welcome {name:}".format(**{'name': 'parthiban'})
+"welcome {name: 5}".format(**{'name': 'parthiban'})
+"welcome {name: 5s}".format(**{'name': 'parthiban'})
+"welcome {name:0s}".format(**{'name': 'parthiban'})
+"welcome {name: >10}".format(**{'name': 'parthiban'})
+"welcome {name: >1}".format(**{'name': 'parthiban'})
+"welcome {name: <1}".format(**{'name': 'parthiban'})
+"welcome {name: <100}".format(**{'name': 'parthiban'})
+"welcome {name: >100}".format(**{'name': 'parthiban'})
+"%s"%'parthiban'
+"%10s"%'parthiban'
+"%-10s"%'parthiban'
+"%-15s"%'parthiban'
+"%-15.5s"%'parthiban'
+"%-8.4s"%'parthiban'
+"%8.4s"%'parthiban'
+"%8.4s"%1
+"%8.4d"%1
+[1,2,3, '2', '30', '1', '11', 2]
+l = [1,2,3, '2', '30', '1', '11', 2]
+l.sort()
+l
+[i for i in l]
+[i for i in l if isinstance(i, str)]
+["%d"%i for i in l if isinstance(i, str)]
+"%d"%1
+"%4d"%1
+"%.4d"%1
+l = [1,2,3, '002', '030', '001', '011', 2]
+l.sort()
+l
+d
+d.sort()
+dir(d)
+import itertools
+help('map')
+map
+map(lambda x: x, [1,2,3,4,5])
+map(lambda x: x*x, [1,2,3,4,5])
+filter(lambda x: x*x, [1,2,3,4,5])
+[i for i in range(10) if i%2==0]
+[i for i in range(10)]
+[i*i for i in range(10)]
+help('map')
+filter(lambda x: x%2==0, [1,2,3,4,5])
+map(lambda x: x%2==0, [1,2,3,4,5])
+def genFact(n):
+  if n == 1:
+    yield 1
+def genFact(n):
+  if n == 0:
+    yield 1
+  else:
+    yield n * genFact(n-1)
+genFact(5)
+i for i in genFact(5):
+for i in genFact(5):
+  print i
+def genFact(n):
+c
+def powoftwo(n):
+  for i in range(n):
+    return n**2
+powoftwo(4)
+def powoftwo(n):
+  print n
+  
+powoftwo(4)
+def powoftwo(n):
+  print n
+  for i in range(n):
+    return i**2
+powoftwo(4)
+def powoftwo(n)
+  for i in range(n):
+    yield i**2
+for i in powoftwo(4):
+  print i
+p = powoftwo(4)
+import readline
+readline.write_history_file('/home/mohideen/Desktop/pyScript/txtFiles/concate20190630.txt'
+)
+p = powoftwo(4)
+p
+dir(p)
+p.next()
+for i in p:
+  print i
+p.next()
+for i in p:
+  print i
+def fibo(n):
+  i, j = 0, 1
+  out = [0, 1]
+  for i in range(n-2):
+    out.append(out[-1] + out[-2])
+  return out
+fibo(10)
+fibo(5)
+def fibo(n):
+  out = [0, 1]
+  for i in range(n-2):
+    out.append(out[-1] + out[-2])
+    return out
+fibo(5)
+fibo(10)
+def fibo(n):
+  out = [0, 1]
+  for i in range(n-2):
+    out.append(out[-1] + out[-2])
+    yield out
+for i in fibo(10):
+  print i
+f = fibo(10)
+f
+f.next()
+for i in f:
+  print i
+def a():
+  a()
+a()
+b = 1
+def a():
+  print b
+  b+=1
+  a()
+a()
+b = 0
+def a():
+  b+=1
+  print b
+  a()
+a()
+def a():
+  global b
+  b+=1
+  print b
+  a()
+a()
+def a():
+  a()
+def fact(n):
+   if n == 0:
+     return 1
+   else:
+     print "%s * %s"%(n,fact(n-1))
+fact(5)
+def fact(n):
+   print n
+   print "%s * %s"%(n,fact(n-1))
+fact(5)
+def fact(n):
+   print "%s * %s"%(n,fact(n-1))
+   if n == 1:
+     return 0
+fact(5)
+def fact(n):
+   if n == 0:
+     return 1
+fact(5)
+def fact(n):
+   if n == 0:
+     return 1
+   fact(n-1)
+fact(5)
+def fact(n):
+  print n
+  if n == 0:
+     return 1
+  fact(n-1)
+fact(5)
+def fact(n):
+  print n
+  if n == 0:
+     return 1
+  print fact(n-1)
+def fact(n):
+fact(5)
+def fact(n):
+  print n
+  if n == 0:
+     return 1
+  fact(n-1)
+fact(5)
+def fact(n):
+  if n == 0:
+     return 1
+  return n * fact(n-1)
+fact(5)
+fact(10)
+5 * 4* 3 * 2 * 1 * 1
+1*None
+fibp
+fibo
+fibo(20)
+list(fibo(20))
+def fibo(n):
+  out = [0, 1]
+  for i in range(n-2):
+    out.append(out[-1]+out[-2])
+  return ' '.join(out)
+fibo(10)
+def fibo(n):
+  out = [0, 1]
+  for i in range(n-2):
+    out.append(out[-1]+out[-2])
+  return ' '.join(map(str, out))
+fibo(10)
+"{} {}".format(*[1,2])
+"{}".format(*[1,2])
+def fiborec(n):
+def fiborec(n, out=[1,2]):
+  if n == len(out):
+    return out
+  out.append(out[-1]+out[-2])
+  fiborec(n, out)
+fiborec(10)
+fibo(10)
+def fibo(n):
+  out = [0, 1]
+  for i in range(n-2):
+    out.append(out[-1]+out[-2])
+    yield out
+for i in fibo(10):
+  print i
+26%13
+20%10
+10%20
+min([1,2,3,41,12,2])
+max([1,2,3,41,12,2])
+l = [10, 20, 30, 54, 2, 1, 89]
+l.sort()
+l
+"%s %s"%(l[0], l[1])
+l[0]
+l[1]
+l[:1]
+l[:2]
+l[:-1]
+l[:-2:-1]
+l[:-3:-1]
+l[-3:-1:]
+l[-3:-1]
+l[-3:]
+l[-2:]
+sum(l[-2:])
+'apple' > 1
+'apple' > 10
+'apple' > 100000000
+l = [1, '1', 2, '33', 33]
+l = [1, '1', 2, '33', 33, '11']
+l = [1, '1', 2, '33', 33, '11', '2']
+l.sort()
+l
+import readline
+readline.write_history_file('rec20190701.txt')
+d
+d.update({'a':10})
+d
+d['a']
+d['name'] = 'nirmal'
+d
+first name = 'credo system'
+first-name = 'credo system'
+first_name = 'credo system'
+first = 1
+name = 2
+first-name
+[first, 'first']
+def a():
+  pass
+a()
+def a():
+  pass
+  a()
+class = 1
+help('def')
+def f(): pass
+f()
+s = "credo
+s = """credo
+"""
+s
+s = "credo 
+s = "credo \
+system"
+s
+a = 10; b = 20; print a+b;
+a = 10;
+s = r"C:\nprogram"
+s
+s = "C:\program"
+s
+for i in s:
+  print s
+for i in s:
+  print i
+s = r"C:\nprogram"
+for i in s:
+  print i
+a = 10 b = 20 print a+b;
+l
+m
+n
+b
+m = [
+1
+,
+2,
+3,
+4,
+5
+]
+m
+1 != 0
+if 1 != 0:
+  print "yes it is"
+1 == 0:
+if 1 == 0:
+  print "yes it is"
+1 > 2
+1 < 2
+1 == 1.0
+1 is 1.0
+a = 1
+b  = 1
+a == b
+a is b
+a == float(b)
+a is float(b)
+id
+id(10)
+id(a)
+a
+id(1)
+id(a)
+id(b)
+b
+b = float(b)
+id(b)
+c
+name
+l
+a
+b
+c
+k
+n = 'mohan'
+mn
+n
+dir(n)
+n.find('h')
+n.find('b')
+help(n.find)
+'h' in n
+'cre' in 'credo'
+'re' in 'credo'
+'er' in 'credo'
+if 'er' in 'credo':
+  print 'yes'
+if 're' in 'credo':
+  print 'yes'
+if 're' in 'credo':
+  print 'yes'
+if 'er' in 'credo':
+  print 'yes'
+if not 'er' in 'credo':
+  print 'yes'
+'er' not in 'credo':
+'er' not in 'credo'
+'er' != 'credo'
+'er' == 'credo'
+a
+b
+b == 1 and isinstance(b, int)
+b == 1 or isinstance(b, int)
+b == 1 
+isinstance(b, int)
+help(isinstance)
+type(a)
+b == 1 and isinstance(b, float)
+b == 1 or isinstance(b, int)
+b == 1.1 or isinstance(b, int)
+b == 1.1 or isinstance(b, float)
+any
+all
+if a == 1:
+  print "True"
+else:
+  print "False"
+if a == 1.0:
+  print "True"
+else:
+  print "False"
+if a is 1.0:
+  print "True"
+else:
+  print "False"
+g
+g = []
+h = 
+g = []
+h
+h = []
+i
+j
+j = []
+g
+h
+j
+a
+if a < 10:
+  g.append(a)
+elif a == 10:
+  h.append(a)
+else:
+  j.append(a)
+g
+h
+j
+a = 10
+if a < 10:
+  g.append(a)
+elif a == 10:
+  h.append(a)
+else:
+  j.append(a)
+g
+h
+
+for a in [5,6,7,10,11,12,10,13,10,8,7, 15, 16, 14]:
+    if a < 10 and 7 > a or a == 8:
+       g.append(a)
+    elif a == 10:
+       h.append(a)
+    elif 10 < a < 14:
+       i.append(a)
+    else:
+       j.append(a)
+
+readline
+readline.write_history_file('20190702ifcond.txt')

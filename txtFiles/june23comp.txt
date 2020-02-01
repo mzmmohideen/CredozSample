@@ -1,0 +1,34 @@
+if True:
+  pass
+if True:
+  print(1)
+  pass
+  print(2)
+help('pass')
+help('continue')
+for i in [1,2,3,4,5]:
+   print 'i is, ', i
+for i in [1,2,3,4,5]:
+   print 'i is, ', i
+   if i == 3:
+for i in [1,2,3,4,5]:
+   print 'i is'
+   if i == 3:
+     print 'Three'
+     continue
+   print i
+for i in [1,2,3,4,5]:
+   print 'i is'
+     print 'Three'
+for i in [1,2,3,4,5]:
+   print 'i is'
+   if i == 3:
+     print 'Three'
+     break
+   print i
+range(10)
+set([1,2,3])
+{1,2}
+[i for i in range(100) if i%2]
+import readline
+readline.write_history_file("/home/mohideen/Desktop/pyScript/txtFiles/june23comp.txt")

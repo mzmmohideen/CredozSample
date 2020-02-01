@@ -1,0 +1,81 @@
+Python 2.7.12 (default, Nov 12 2018, 14:36:49) 
+[GCC 5.4.0 20160609] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> l = xrange(10, 20)
+>>> l
+xrange(10, 20)
+>>> l
+xrange(10, 20)
+>>> k = range(10, 20)
+>>> l
+xrange(10, 20)
+>>> k
+[10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+>>> for i in l:
+...   print i
+... 
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+>>> for i in k:
+...   print i
+... 
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+>>> import sys
+
+
+
+
+
+>>> import sys
+>>> sys.getsizeof
+<built-in function getsizeof>
+>>> sys.getsizeof(l)
+40
+>>> sys.getsizeof(k)
+152
+>>> l
+xrange(10, 20)
+>>> k
+[10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+>>> k = range(10, 20)
+>>> l = xrange(10, 20)
+>>> k
+[10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+>>> l
+xrange(10, 20)
+>>> help(range)
+
+>>> help(xrange)
+
+>>> sys.getsizeof(l)
+40
+>>> sys.getsizeof(k)
+152
+>>> 
+>>> readline.write_history_file('/home/ahj/history')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'readline' is not defined
+>>> import readline
+>>> readline.write_history_file('/home/mohideen/Desktop/pyScript/eg2.txt')
+>>> readline.write_history_file('/home/mohideen/Desktop/pyScript/eg2.txt')
+
+import readline
+readline.write_history_file('/home/mohideen/Desktop/pyScript/eg3.txt')

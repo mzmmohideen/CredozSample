@@ -1,0 +1,140 @@
+from PySide2 import *
+s = "Hi hello how are you"
+s
+dir(s)
+s.split()
+help(s.split)
+s
+s.split('h')
+s.split('h', 1)
+''.join
+''.join(['apple', 'orange', 'mango'])
+'-'.join(['apple', 'orange', 'mango'])
+'-'.join([1,2,3,4,5,6])
+'-'.join(map(str, [1,2,3,4,5,6])
+)
+'-'.join([i for i in [1,2,3,4,5,6]])
+'-'.join([str(i) for i in [1,2,3,4,5,6]])
+'*'.join([str(i) for i in [1,2,3,4,5,6]])
+dir('')
+help(r.split)
+help(''.split)
+help(''.rsplit)
+help(''.split)
+help(''.rsplit)
+s.split('h')
+s.split('h', 1)
+s.rsplit('h', 1)
+import re
+re
+s = """
+RegExr was created by gskinner.com, and is proudly hosted by Media Temple.
+Edit the Expression & Text to see matches. Roll over matches or the expression for details. PCRE & Javascript flavors of RegEx are supported.
+The side bar includes a Cheatsheet, full Reference, and Help. You can also Save & Share with the Community, and view patterns you create or favorite in My Patterns.
+Explore results with the Tools below. Replace & List output custom results. Details lists capture groups. Explain describes your expression in plain English.
+"""
+s
+dir(re)
+help(re.search)
+f = re.search('.', s)
+f
+dir(f)
+f.RegExr was created by gskinner.com, and is proudly hosted by Media Temple.
+Edit the Expression & Text to see matches. Roll over matches or the expression for details. PCRE & Javascript flavors of RegEx are supported.
+The side bar includes a Cheatsheet, full Reference, and Help. You can also Save & Share with the Community, and view patterns you create or favorite in My Patterns.
+Explore results with the Tools below. Replace & List output custom results. Details lists capture groups. Explain describes your expression in plain English.
+f.group()
+f = re.search('.', s)
+s
+f = re.search('.*', s)
+f.group()
+f = re.search('.\s', s)
+f.group()
+f = re.search('Replace', s)
+f.group()
+f = re.search('Replace|custom', s)
+f.groups()
+f.group()
+f.group(0)
+f.group(1)
+f = re.search('[a-z]', s)
+f
+f.group()
+f = re.search('[a-z]\w', s)
+f.group()
+f = re.search('[A-Z]\w', s)
+f.group()
+f = re.search('[A-Z]\w+', s)
+f
+f.group()
+f = re.match('[A-Z]\w+', s)
+f
+help(re.match)
+f = re.search('[A-Z]\w+', s)
+f.group()
+f = re.match('[A-Z]\w+', s)
+f
+s
+f = re.match('[A-Z]\w+', s[1])
+f
+f = re.match('[A-Z]\w+', s[1:])
+f
+f.group()
+s[1]
+s[1:]
+s
+help(re.findall)
+help(re.finditer)
+f = re.findall('[A-Z]\w+', s)
+f
+f = re.findall('[a-z]\w+', s)
+f
+f = re.findall('[0-9]\w+', s)
+f
+n = "Chennai 600016"
+f = re.findall('[0-9]\w+', n)
+f
+s
+s.split()
+[i for i in s.split()]
+dir('')
+[i.istitle() for i in s.split()]
+[i for i in s.split() if i.istitle()]
+s
+[i for i in s[1:].split() if i.istitle()]
+dir('')
+[i for i in s[1:].split() if i.istitle()]
+s
+[i for i in s[4:].split() if i.istitle()]
+f = re.finditer('[0-9]\w+', n)
+f
+list(f)
+f
+[i for i in f]
+f = re.finditer('[0-9]\w+', n)
+[i.group() for i in f]
+f = re.finditer('[A-Z]\w+', s)
+[i.group() for i in f]
+s
+re.sub
+help(re.sub)
+f = re.sub('[A-Z]\w+', 'REPLACED', s)
+f
+help(re.sub)
+f
+s
+f = re.sub('[A-Z]\w+', 'REPLACED', s, 5)
+f
+help(re.split)
+f = re.split('[A-Z]\w+' s, 5)
+f = re.split('[A-Z]\w+', s, 5)
+f
+f = re.split('[A-Z]\w+', s)
+f
+re.compile
+r = re.compile('[A-Z]\w+')
+r
+f = re.findall(r, s)
+f
+import readline
+readline.write_history_file("/home/mohideen/Desktop/pyDocs/txtFiles/jun23Regex.txt")

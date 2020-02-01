@@ -1,0 +1,166 @@
+l = range(0, 100)
+l
+[i for i in l]
+[i*i for i in l]
+[i for i in l if i]
+[i for i in l if i%2]
+[i for i in l if i%2==0]
+is
+a
+a = 10
+b = a
+id(a)
+id(b)
+id(10)
+a == b
+a is b
+a == float(b)
+a is float(b)
+def sampleFunc():
+   print("Welcome")
+sampleFunc()
+sampleFunc(1)
+"{}".format(1)
+"{}".format({'a':'cred'})
+"{0}".format({'a':'cred'})
+"{0}".format(**{'a':'cred'})
+"{a}".format(**{'a':'cred'})
+"{a}".format(a='credo')
+"{}".format('credo')
+"{}".format(*'credo')
+"{}".format('c')
+a = sampleFunc()
+a
+def sampleFunc():
+   print("Welcome")
+   return 1
+a = sampleFunc()
+a
+s
+s = "hi hello world!"
+len
+l = len(s)
+l
+def len():
+  pass
+len
+l = len(s)
+def len(a):
+  pass
+l = len(s)
+l
+def len(a):
+  count = 0
+  for i in a:
+    count+=1
+l = len(s)
+l
+def len(a):
+  count = 0
+  for i in a:
+    count+=1
+    print(count)
+l = len(s)
+l
+def len(a):
+  count = 0
+  for i in a:
+    count+=1
+    print(count)
+    return count
+l = len(s)
+l
+def len(a):
+  count = 0
+  for i in a:
+    count+=1
+    print(count)
+  return count
+l = len(s)
+l
+def len():
+  a = inpt("Enter your sequence:")
+  count = 0
+  for i in a:
+def len():
+  a = input("Enter your sequence:")
+  count = 0
+  for i in a:
+    count+=1
+  return count
+len()
+hi hello
+len()
+[1,2,3]
+def len():
+  a = input("Enter your sequence:")
+  try:
+    a = eval(a)
+  except:
+    pass
+  for i in a:
+    count+=1
+  return count
+len()
+hi hello
+def len():
+  a = input("Enter your sequence:")
+  count = 0
+  try:
+    a = eval(a)
+  except:
+    pass
+  for i in a:
+    count+=1
+  return count
+len(s)
+len()
+hi hello
+len()
+[1,2,3]
+len()
+hi hello
+len()
+[1,2,3]
+len()
+{'apple':1, 'orange':2}
+w = '[1,2,3]'
+type(w)
+type(eval(w))
+w = type(eval(w))
+w = eval(w)
+w = '[1,2,3]'
+w = eval(w)
+w
+type(w)
+w = '1,2,3'
+w = eval(w)
+w
+w = '1a'
+w = eval(w)
+w = 'a1'
+w = eval(w)
+'hi hello!'.isalpha()
+'hi hello!1'.isalpha()
+dir('')
+'hi hello!1'.isalnum()
+'hi hello!'.isalnum()
+dir('')
+help(''.isidentifier)
+'hi hello!'.isidentifier()
+'[hi hello!]'.isidentifier()
+"['hi hello!']".isalnum()
+help(''.isnumeric)
+"['hi hello!']".isalnum()
+"1".isalnum()
+"1a".isalnum()
+"!1a".isalnum()
+"1a".isalnum()
+"1a".alnumeric()
+"1a".isalnumeric()
+"1a".isnumeric()
+"1".isnumeric()
+"1a hi hell".isalnum()
+"1a".isalnum()
+import readline
+readline.write_history_file("/home/mohideen/Desktop/pyDocs/pyModules/aug20/funcBasic.txt")

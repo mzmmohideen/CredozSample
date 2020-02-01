@@ -1,0 +1,254 @@
+a = "credo system"
+dir(a)
+dir(str)
+b = 1
+dir(b)
+b + 1
+b.__add__(2)
+b+2
+b-1
+b.__sub__(1)
+s
+a
+a+a
+a + 10
+10 + a
+a - a
+a.__sub__(2)
+a = 1
+a.__sub__(2)
+dir(a)
+dir(str)
+s = "credo system"
+s.capitalize
+help(s)
+help(str)
+help(s.capitalize)
+s.capitalize()
+s.center
+help(s.center)
+s.center
+s.center(20)
+s.center(20, '*')
+dir(s)
+help(s.ljust)
+s.ljust()
+s.ljust(20)
+s.ljust(20, '*')
+s.rjust(20, '*')
+s.just(20, '*')
+help(s.isalnum)
+s.isdigit()
+help(s.index)
+help(s.find)
+s.index('C')
+s.find('C')
+s
+len(s)
+dir(s)
+s.__len__()
+s
+s[0]
+a
+dir(a)
+a[0]
+s
+s[0]
+s[len(s)-1]
+s[len(s)]
+s[11]
+s[12]
+s
+s[-1]
+s[-2]
+s.index('m')
+s[0]
+s[0] = 'C'
+l
+l = [1,2,3]
+l[0]
+l[0] = 10
+l
+s[0]
+s
+s[0:5]
+s[0]
+s[]
+s[0:]
+s[0::]
+s[0::2]
+s[::2]
+s[5:]
+s[6:]
+s[-1]
+s[-1:]
+s[-1:-6:1]
+s[-1:-6:-1]
+s[-1:-6:]
+s[-1::]
+s[]
+s[:]
+s[::]
+s[::-1]
+s[::-1] == s
+s
+s = 'malayalam'
+s[::-1] == s
+a
+str(a)
+l
+str(l)
+len
+str(len)
+'ls
+s
+int(s)
+ss = '10'
+int(ss)
+sss = s + ss
+sss
+int(sss)
+s
+list(s)
+[s]
+len([s])
+len(s)
+len(list(s))
+s[0]
+l = list(s)
+l[0]
+l = [s]
+l[0]
+s
+l = list(s)
+l = [a,s,'a','s']
+print(l)
+l[1]
+l[1][2]
+l[0]
+l[0][0]
+l[0][2]
+l[0]
+l[0] = 100
+l
+dir(l)
+help(.insert)
+help(l.insert)
+help(l.append)
+dir(l)
+l
+l.reverse()
+l
+l = l[::-1]
+l
+l()
+t
+t = tuple(l)
+dir(t)
+t[0] = 10
+dir(t)
+t
+t[0]
+t[0] = 10
+d
+d = {'apple': 10, 'mango': 20, 'orange': 30}
+dir(d)
+d+d
+d['apple']
+d.items()
+d.keys()
+d.values()
+f = d
+f
+d
+d['apple']
+f['apple']
+f['apple'] = 100
+f
+d
+id(f)
+id(d)
+f = d.copy()
+id(d)
+id(f)
+f
+d
+f['apple'] = 10
+f
+d
+a
+b = a
+a
+b
+id(a)
+id(b)
+a = a/2
+a
+b
+l
+m = l
+id(l)
+id(m)
+m[0]
+m[0] = 'S"
+m[0] = 'S'
+m
+l
+dir(l)
+id(l)
+id(m)
+m = l[:]
+id(m)
+m
+l
+m[0]
+m[0] = 's'
+m
+l
+d
+s
+s = set([])
+s
+;l
+l
+l = l + l
+l
+set(l)
+list(set(l))
+s = {1,2,1,2,3,4}
+print(s)
+type(s)
+s = set([1,2])
+s
+dir(s)
+s = {'ramu': 8, 'raju': 8, 'mani': 9, 'tamil': 7, 'sekar': 10, 'abc': 12, 'bcd': 13, 'ef': 10, 'mn': 11}
+pre = []
+ukg = []
+lkg = []
+others = []
+for i in s:
+  if s[i] < 9:
+     pre.append([i, s[i]])
+  elif 9 <= s[i] < 11:
+     ukg.append([i, s[i]])
+  elif s[i] == 12:
+     lkg.append([i, s[i]])
+  else:
+     other.append([i, s[i]])
+pre
+for i in s:
+  if s[i] < 9:
+     pre.append([i, s[i]])
+  elif 9 <= s[i] < 11:
+     ukg.append([i, s[i]])
+  elif s[i] == 12:
+     lkg.append([i, s[i]])
+  else:
+     others.append([i, s[i]])
+pre
+lkg
+ukg
+other
+others
+import readline
+readline.write_history_file('/home/mohideen/Desktop/pyDocs/pyModules/dec01/loop.txt')

@@ -1,0 +1,101 @@
+a = 1
+while a < 100:
+  print(a)
+  a += 1
+a
+a = 1
+while a:
+  print(a)
+  a += 1
+  if a == 20:
+    a = 0
+import random
+random.randint
+dir(random)
+help(random.randint)
+random.randint(1, 6)
+random.randint(1000, 9999)
+l = ['cow', 'cow', 'cow', 'cow']
+l.count('cow') == 4
+a
+a = 6182
+a[0] == i[0]
+a = str(8182)
+a
+a[0]
+i = '2131'
+i[0] == a[0]
+a = 'credo'
+list(a)
+[i for i in a]
+def fun():
+  pass
+help('pass')
+if True:
+  print(1)
+  pass
+  print(2)
+help(pass)
+help(if)
+help('if')
+for i in range(10):
+  if i == 5:
+    print("Five")
+    break
+  print(i)
+for i in range(10):
+  if i == 5:
+    print("Five")
+    continue
+  print(i)
+for i in range(10):
+  if i == 5:
+    print("Five")
+  print(i)
+if i == 5:
+  break
+if i == 5:
+  continue
+a
+a = 1
+while a:
+  print(a)
+  a += 1
+  if a == 10:
+    break
+a
+inp = raw_input("Enter you age:")
+20
+inp * 12 * 30 * 24 * 60
+inp
+if inp.isdigit():
+  out = int(inp)
+out * 12 * 30 * 24 * 60
+inp = raw_input("Enter you age:")
+abc
+if inp.isdigit():
+  out = int(inp)
+out
+del out
+if inp.isdigit():
+  out = int(inp)
+out * 12 * 30 * 24 * 60
+if inp.isdigit():
+  out = int(inp)
+else:
+  out = 1
+out
+out * 12 * 30 * 24 * 60
+out = int(inp) if inp.isidigit() else 1
+out = int(inp) if inp.isdigit() else 1
+out
+a
+a = '10'
+10 if a == '10' else 0
+a = '100'
+10 if a == '10' else 0
+10 if a == '10' else 100 if a == '100' else 0
+a = '99'
+10 if a == '10' else 100 if a == '100' else 0
+import readline
+readline.write_history_file('/home/mohideen/Desktop/pyDocs/pyModules/dec01/loop20191228.txt')

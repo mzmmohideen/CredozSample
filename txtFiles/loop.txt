@@ -1,0 +1,109 @@
+import classSample as c
+dir(c)
+help(c.D0
+help(c.D)
+help(c.D.sum)
+class A:
+  c  = 100
+class B:
+  d = 20
+class C(A,B):
+   def sum(self):
+      print self.c, self.d
+      return self.c+self.d
+C().sum()
+class C(A,B):
+   print "A", A.c, "B",B.d
+help(raw_input)
+help(input)
+help(if)
+help('if')
+for i in "credo":
+   print i
+s = "credo"
+s
+for i in s:
+   print s.index(i)
+for i in s:
+   print s.index(i), i
+s[2]
+for i in enumerate("credo"):
+   print i
+for i, v in enumerate("credo"):
+   print 'index is', i, 'value is', v
+help(range)
+range(10)
+range(5, 10)
+range(10, 20, 2)
+a = range(10)
+for i in a:
+   print i
+for i in a:
+   if i%20:
+for i in a:
+   if i%2 == 0:
+      print "even number", i
+   else:
+      print "odd number", i
+l = []
+for i in a:
+   if i%2 == 0:
+      l.append(i)
+l
+l = []
+for i in a:
+   if i%2 ] != 0:
+for i in a:
+   if i%2 != 0:
+      l.append(i)
+l
+d = {'name': 'credo', 'age': 10, 'address': 'velachery'}
+d
+for i in d:
+   print i
+for i in d:
+   print 0i
+l
+l[0]
+d
+d['name']
+for i in d:
+   print i, "=", d[i]
+dir(d)
+help(d.get)
+d['name']
+d['name1']
+help(d.get)
+d.get('name1')
+d.get('name1', 'Not exist')
+d.get('name', 'Not exist')
+d.items()
+l
+enumerate(l)
+list(enumerate(l))
+for i in d.items():
+  print i
+for k, v in d.items():
+  print 'key is', k, 'value is', v
+for k, v in d.items():
+   if not isinstance(v, int):
+      print 'key is', k, 'value is', v
+for k, v in d.items():
+   if isinstance(v, int):
+      print 'key is', k, 'value is', v
+zip
+d
+dir(d)
+d.keys()
+d.values()
+k = d.keys()
+v = d.values()
+k
+v
+zip
+zip(k,v)
+dict(zip(k,v))
+import readline
+dir(readline)
+help(readline.read_history_file)
+readline.write_history_file('loop.txt')

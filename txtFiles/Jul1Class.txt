@@ -1,0 +1,147 @@
+from classSample import abc
+from pyModules.classSample import abc
+from pyModules.ab import abc
+1
+from pyModules.ab import abc
+abc
+from pyModules.ab import abc
+abc
+from pyModules.ab import abc
+apple
+help(int)
+class A:
+  a = 10
+  b = 20
+  def sum(self):
+    return a
+A()
+A().sum()
+class A:
+  a = 10
+  b = 20
+  def sum(self):
+    return self.a + self.b
+A.a
+dir(A)
+dir(A.sum)
+dir(sum)
+dir(A.a)
+dir(A)
+class A:
+  a = 10
+  b = 20
+  print(dir())
+  def sum(self):
+     print('self', dir(self))
+dir(A)
+dir(A().sum())
+A().sum()
+s = A()
+s
+dir(s)
+class A:
+  a = 10
+  b = 20
+  def sum(self):
+    self.c = self.a + self.b
+dir(A)
+dir(A())
+s = A()
+dir(s)
+s.sum()
+dir(s)
+A.sum
+A().sum
+dir(A)
+dir(s)
+t = A()
+dir(t)
+t.sum()
+dir(t)
+A().sum()
+dir(A().sum())
+dir(A())
+setattr
+dir(A)
+setattr(A, 'c', 100)
+dir(A)
+A.c
+class A:
+  def sum(self, a, b):
+    return a+b
+A()
+A().sum()
+A().sum(1, 2)
+s = A()
+A().sum(1, 2)
+s
+A
+class A:
+  def sum(a, b):
+    return a+b
+A().sum(1, 2)
+A().sum(1)
+A().sum(a=1)
+A().sum(b=1)
+class A:
+  def sum(a, b=1):
+    return a+b
+A().sum(b=1)
+A().sum(b)
+A().sum(1)
+class A:
+  def sum(a=1, b=1):
+    print('se', a, 'b', b)
+A().sum(1)
+A()
+A().sum(b=1)
+A().sum(a=1)
+A().sum(b=1)
+A().sum(b=1, b=3)
+class A:
+    a = 10
+    b = 20
+    def sum(self):
+      return self.a+ self.b
+    def __init__(self):
+      self.c = self.sum()
+dir(A)
+s = A()
+dir(s)
+s.sum()
+A.c
+A().c
+c
+dir(A)
+dir(A())
+class A:
+  a = 10
+  b = 20
+  def __init__(self, c):
+    self.c = c
+A()
+A(2)
+dir(A)
+dir(A(2))
+A(2).c
+s = A(2)
+s.c
+s = A(20)
+s.c
+class A:
+  a = 10
+  b = 20
+  def __init__(self):
+    pass
+  def sum(self, c):
+    self.c = c + self.a + self.b
+s = A()
+s
+dir(s)
+s.sum(3)
+dir(s)
+s.c
+s.sum(3)
+s.c
+import readline
+readline.write_history_file("/home/mohideen/Desktop/pyDocs/txtFiles/Jul1Class.txt")

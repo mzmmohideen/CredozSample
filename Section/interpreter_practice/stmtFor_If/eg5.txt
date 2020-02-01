@@ -1,0 +1,89 @@
+import ex1
+help(ex1)
+a = 10
+#a = 10
+wq
+if a:
+  print a
+if a:
+  #print a
+a
+a = 1 b= 20
+a = 1 
+b = 20
+a = 10; b = 20
+a
+b
+A
+A = 100
+a
+in
+In
+class
+Class
+Class = 10
+class = 10
+import os
+os.getcwd()
+k = [
+10,
+20,
+100]
+k
+k = (
+10,
+210)
+d = {
+'a': }
+d = {
+'a': 9
+}
+"\
+"
+num = raw_input('Enter your number:')
+100
+num
+if num == 100:
+  print 'yes it is'
+num == 100
+if True:
+  print 'yes it is'
+num == 100
+int(num) == 100
+if int(num) == 100:
+  print 'yes it is'
+student = [10, 9, 8, 10, 11, 10]
+group = []
+for i in student:
+  print 'i', i
+  if i == 10:
+    group.append(i)
+group
+group = []
+groupa = []
+groupb = []
+for i in student:
+  print 'i', i
+  if i == 10:
+    groupa.append(i)
+  else:
+     groupb.append(i)
+groupa
+groupb
+groupa = []
+groupb = []
+groupc = []
+for i in student:
+  print 'i', i
+  if i == 10:
+     groupa.append(i)
+  elif i < 10:
+     groupb.append(i)
+  else:
+     groupc.append(i)
+groupa
+groupb
+groupc
+max([0[)
+max([0])
+import readline;readline.write_history_file('/home/mohideen/Desktop/pyScript/eg5.txt')

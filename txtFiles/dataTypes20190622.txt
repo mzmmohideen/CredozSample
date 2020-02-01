@@ -1,0 +1,154 @@
+10/5
+5/2
+5//2
+5.0//2
+5.0/2
+s = 'parthiban'
+len(s)
+s[0]
+s = 'parthiban'
+s[9]
+s[8]
+s[len(s)-1]
+s[-1]
+s = 'parthiban'
+len(s)
+help(len)
+	s
+s
+s.replace('p', 'P')
+s
+help(s.replace)
+s.replace('p', 'P')
+s
+s = s.replace('p', 'P')
+s
+l = []
+s = "hi
+s = """hi
+hello
+how
+are
+you!
+"""
+s
+s = 'hi
+a = 'hi'
+a
+a = "hi"
+a = "hi
+s
+s.split('\n')
+s.split('n')
+s.split('h')
+l = []
+l = ['apple', 'mango', 'orange']
+l
+s
+l = [s, a, b, c, 's', 'a', 'b', 'c']
+b = 10
+l = [s, a, b, c, 's', 'a', 'b', 'c']
+c = 100
+l = [s, a, b, c, 's', 'a', 'b', 'c']
+l
+for i in s:
+  print i
+for i in s:
+  print i
+l
+len(l)
+l[0]
+l[1]
+l
+l[0]
+l[-1]
+dir(l)
+help(l.append)
+l
+l.append('parthiban')
+l
+len(l)
+help(l.append)
+l
+l[-1]
+l.append(1)
+l
+dir(l)
+l
+l.index('hi')
+l.index('parthiban')
+l[-2]
+dir(l)
+help(l.insert)
+l
+l.append('parthiban')
+l
+l.insert(0, 'parthiban')
+l
+l.insert(5, 'parthiban')
+;
+l
+l[0]
+l[0].replace('p', 'P')
+l
+l[0] = l[0].replace('p', 'P')
+l
+p = 'parthiban'
+p
+p.replace('p', 'P')
+p
+p[0]
+p[0] = 'P'
+l
+dir(__builtins__)
+l
+tuple(l)
+t = tuple(l)
+t
+dir(t)
+t
+t = ()
+t
+t = tuple(l)
+t[0]
+t[0].replace('P', 'p')
+t[0] = t[0].replace('P', 'p')
+l[0] = l[0].replace('P', 'p')
+l
+a = 10
+type(a)
+str(a)
+a = '10'
+type(a)
+int(a)
+l
+set(l)
+help(set)
+set(l)
+s = set(l)
+s
+dir(s)
+s[0]
+s
+list(s)
+l
+l = list(set(l))
+l
+d = {0:'a'}
+d
+d[0]
+l
+l[0]
+d = {0:'a'}
+d[0]
+d = {'name':'a'}
+d[0]
+d['name']
+d = {'name': 'parthiban', 'age': 28}
+d
+d['age']
+d['age'] = 29
+d
+dir(d)
+import readline
+readline.write_history_file('/home/mohideen/Desktop/pyScript/dataTypes20190622.txt')

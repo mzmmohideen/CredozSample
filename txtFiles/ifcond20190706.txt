@@ -1,0 +1,322 @@
+print '1'
+help('print')
+print '1', 2 ,3 2
+print '1', 2 ,3, 2
+name = "credo"
+type(name)
+Name
+credo
+'credo'
+credo = 1
+credo
+A = 1
+a
+last name = 'credo'
+last-name = 'credo'
+class = 1
+Class = 1
+credo
+lastName
+a
+a = 10
+dir(a)
+10+2
+10/3
+n = "name"
+dir(n)
+n
+n+1
+n+n
+n-n
+dir(n)
+n.upper()
+n.upper1()
+help(n.upper1)
+help(n.upper)
+a = 10
+a
+dir(__builtins__)
+help(AssertionError)
+help(NameError)
+a = 10
+a/5
+a = a/5
+a
+a = 10
+a
+a/5
+a
+a = a/5
+a
+a = 10.5
+a/5
+a
+a = a/5
+a
+s
+a
+str(a)
+s = str(a)
+s
+type(s)
+type(a)
+s
+help(len)
+len(s)
+len(a)
+dir(s)
+dir(a)
+len(a)
+name
+name[0]
+name
+name[0]
+dir(name)
+name[0]
+a
+a[0]
+name[0]
+name[1]
+name
+name[2]
+name[5]
+name[4]
+name[len(name)-1]
+name[-1]
+name[-5]
+name[-6]
+dir(name)
+help(name.replace)
+name
+name = name*3
+name
+name.replace('C', 'c')
+name.replace('c', '5')
+name.replace('c', '5', 2)
+name
+name.replace('c', '5', 2)
+help(name.replace)
+dir(name)
+name
+help(name.center)
+name.center
+name.center()
+name.center(10)
+name.center(20)
+name.center(20,'*')
+name.center(25,'*')
+name.center(25)
+s
+s = 'crefdo's'
+s = "crefdo's"
+s = 'crefdo"s'
+s
+s = """
+hi hello
+how are you
+"""
+s
+s = '''
+'''
+name
+l = [name, 'name', 'a', 'b']
+l = [name, 'name', 'a', 'b', 10, 20, 35.5]
+l
+l = [name1, 'name', 'a', 'b', 10, 20, 35.5]
+l = ['name1', 'name', 'a', 'b', 10, 20, 35.5]
+l
+l[0]
+l[-1]
+l
+dir(L)
+dir(l)
+help(l.append)
+l
+l.append(name)
+l
+len(l)
+l.append('chennai')
+l
+len(l)
+dir(l)
+l.append([1,2,3])
+l
+len(l)
+help(l.extend)
+l
+l.extend([1,2,3])
+len(l)
+l
+l.extend('credo')
+l
+l.append('credo')
+l
+dir(l)
+len(l)
+l.extend(name)
+len(l)
+l
+l.append(name)
+len(l)
+l
+dir(l)
+d
+name
+list(name)
+d = {'apple': 5, 'banana': 6, 'mango': 10}
+name[0]
+d['apple']
+dir(d)
+d
+d = {'apple': 5, 'banana': 6, 'mango': 10, 'apple': 100}
+d
+d[0]
+d['mango']
+d[0] = 10
+d
+d[0]
+mango = 0
+d[0] = 5
+d
+d['mango']
+d[mango]
+d['mango'] = 50
+d
+dir(d)
+d
+help(d.update)
+d
+d.update({'a': 10, 'b': 2, 'c': 3})
+d
+d.update({0: 'apple'})
+d
+d.keys()
+d.valuess()
+d.values()
+set
+help(set)
+l
+set(l)
+
+l
+l = l[0:9]
+l
+l.append('name')
+l.append('a')
+l
+set(l)
+list(set(l))
+x = 10
+y = 20
+x+y
+print x+y
+if 1:
+1
+if 1:
+ 1
+if 1:
+ 1
+s = "credo 
+s = "credo \
+System "
+s
+s = """ credo
+System
+"""
+s
+s = """ credo \
+System
+"""
+s
+import random
+help(random)
+help(random.randint)
+dir(random.randint)
+random.randint.__doc__
+class Foo:
+   """This is sample class
+   """
+dir(Foo)
+Foo.__doc__
+help(Foo)
+a  = 10
+a  = 10;
+a  = 10; b = 20; print a+b;
+if True: print a
+if True: print a;
+a = if True else False
+a = True if True else False
+a
+[
+1,
+2,
+3
+]
+a
+a = 10
+a == 10
+d
+dir(d)
+d['apple']
+d['pineapple']
+help(d.get)
+d.get('pineapple')
+d.get('pineapple', 'Not exist')
+d.get('apple', 'Not exist')
+name
+'er' in name
+'re' in name
+if 're' in name:
+  print("yes it is")
+if 're' not in name:
+  print("yes it is")
+if 're' not in name:
+  print("yes it is")
+else:
+  print "Not exist"
+name == "credo"
+name != "credo"
+a
+a > 10
+a >= 10
+a = 10
+b = 10.0
+a
+b
+a == b
+a is b
+a is int(b)
+id(a)
+id(10)
+id(b)
+id(int(b))
+b = 10
+a == b
+a is b
+id(b)
+b = float(b)
+b
+id(b)
+a is b
+if False:
+  print 1
+if not False:
+  print 1
+if !False:
+a === 1
+a not is 1
+1 and 2
+1 & 2
+1 | 2
+1 or 2
+0 and 2
+1 or 2
+0 or 2
+1 ^ 2
+1 ^ 3
+10*10
+10**10
+10**2
+10**3
+import readline
+readline.write_history_file("/home/mohideen/Desktop/pyScript/txtFiles/ifcond20190706.txt")

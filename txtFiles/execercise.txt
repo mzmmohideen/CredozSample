@@ -1,0 +1,870 @@
+>>> help(range)
+>>> 
+>>> range(10)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> range(10)[0]
+0
+>>> range(10)[0:8]
+[0, 1, 2, 3, 4, 5, 6, 7]
+>>> range(10, 20)
+[10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+>>> range(10, 20)[0:7]
+[10, 11, 12, 13, 14, 15, 16]
+>>> range(10, 20)[0:7:2]
+[10, 12, 14, 16]
+>>> range(10, 20)[0:7:-2]
+[]
+>>> range(10, 20)[:7:-2]
+[19]
+>>> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>> fror i in
+  File "<stdin>", line 1
+    fror i in
+         ^
+SyntaxError: invalid syntax
+>>> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>> for i in range(10):
+...   print i
+...   if i == 5:
+...     break
+... 
+0
+1
+2
+3
+4
+5
+>>>   print i
+  File "<stdin>", line 1
+    print i
+    ^
+IndentationError: unexpected indent
+>>> for i in range(10):
+...   print i
+...   if i == 5:
+...     continue
+... 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+>>> for i in range(10):
+...   if i == 5:
+...     continue
+...   print i
+... 
+0
+1
+2
+3
+4
+6
+7
+8
+9
+>>> for i in range(10):
+...   print i
+...   if i == 5:
+...     continue
+...   print 'after', i
+... 
+0
+after 0
+1
+after 1
+2
+after 2
+3
+after 3
+4
+after 4
+5
+6
+after 6
+7
+after 7
+8
+after 8
+9
+after 9
+>>> for i in range(10):
+...   if i == 5:
+...     print i
+...     pass
+... 
+5
+>>> for i in range(10):
+...   print 'started', i
+...   if i == 5:
+...     print 'pass', i
+...   print 'ended', i
+... 
+started 0
+ended 0
+started 1
+ended 1
+started 2
+ended 2
+started 3
+ended 3
+started 4
+ended 4
+started 5
+pass 5
+ended 5
+started 6
+ended 6
+started 7
+ended 7
+started 8
+ended 8
+started 9
+ended 9
+>>> for i in range(10):
+... 
+  File "<stdin>", line 2
+    
+    ^
+IndentationError: expected an indented block
+>>> fora i in 
+  File "<stdin>", line 1
+    fora i in 
+         ^
+SyntaxError: invalid syntax
+>>> fora  = 1
+>>> fora  : 1
+  File "<stdin>", line 1
+    fora  : 1
+          ^
+SyntaxError: invalid syntax
+>>> 
+>>> "{} {}".format(1,2)
+'1 2'
+>>> "{0} {1}".format(1,2)
+'1 2'
+>>> "{1} {0}".format(1,2)
+'2 1'
+>>> "{1} {0}".format([1,2])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: tuple index out of range
+>>> "{1} {0}".format(*[1,2])
+'2 1'
+>>> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>> help(lambda)
+  File "<stdin>", line 1
+    help(lambda)
+               ^
+SyntaxError: invalid syntax
+>>> help('lambda')
+
+Related help topics: FUNCTIONS
+
+>>> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>> a = lambda x: x*x
+>>> type(a)
+<type 'function'>
+>>> def sqaure(a):
+...   return a*a
+... 
+>>> type(sqaure)
+<type 'function'>
+>>> lambda x: x*x
+<function <lambda> at 0x7f3a369e1578>
+>>> lambda x: x*x
+<function <lambda> at 0x7f3a369e15f0>
+>>> type(a)
+<type 'function'>
+>>> a
+<function <lambda> at 0x7f3a36b19140>
+>>> type(a)
+<type 'function'>
+>>> type(sqaure)
+<type 'function'>
+>>> square(10)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'square' is not defined
+>>> sqaure(10)
+100
+>>> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>> sqaure(10)
+100
+>>> a
+<function <lambda> at 0x7f3a36b19140>
+>>> a(10)
+100
+>>> help(map)
+
+>>> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>> map(lambda x: x*x, range(10))
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+>>> def sqr(a):
+...   print a
+...   return a*a
+... 
+>>> map(sqr, range(10))
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+>>> for i in range(10):
+...   print sqaure(i)
+... 
+0
+1
+4
+9
+16
+25
+36
+49
+64
+81
+>>> map(lambda x: x*x, range(10))
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+>>> def mapping(func, li):
+...   print func
+... 
+>>> mapping(a, [])
+<function <lambda> at 0x7f3a36b19140>
+>>> def mapping(func, li):
+...   print func(li[1])
+... 
+>>> mapping(a, [1])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 2, in mapping
+IndexError: list index out of range
+>>> mapping(a, [1,2])
+4
+>>> 
+>>> def mapping(func, li):
+...   out = []
+...   for i in li:
+...     print 'loop started'
+...     sqr = func(i)
+...     print 'sqr number', sqr
+...     out.append(sqr)
+...   return out
+... 
+>>> mapping(a, range(5))
+loop started
+sqr number 0
+loop started
+sqr number 1
+loop started
+sqr number 4
+loop started
+sqr number 9
+loop started
+sqr number 16
+[0, 1, 4, 9, 16]
+>>> help(map)
+
+>>> a
+<function <lambda> at 0x7f3a36b19140>
+>>> help(map)
+
+>>> range(5)
+[0, 1, 2, 3, 4]
+>>> a
+<function <lambda> at 0x7f3a36b19140>
+>>> def mapp(func, li):
+...   return [func(x) for x in li]
+... 
+>>> mapp(sqaure, [10, 20, 30])
+[100, 400, 900]
+>>> mapp(a, [10, 20, 30])
+[100, 400, 900]
+>>> 
+
+
+
+
+
+
+
+>>> def cube(a):
+...   return a*a*a
+... 
+>>> mapp(cube(a), [10, 20, 30])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 2, in cube
+TypeError: unsupported operand type(s) for *: 'function' and 'function'
+>>> mapp(cube, [10, 20, 30])
+[1000, 8000, 27000]
+>>> mapp(cube(a), [10, 20, 30])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 2, in cube
+TypeError: unsupported operand type(s) for *: 'function' and 'function'
+>>> mapp(cube, [10, 20, 30])
+[1000, 8000, 27000]
+>>> def cube(a):
+... 
+KeyboardInterrupt
+>>> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>> mapp(cube, [10, 20, 30])
+[1000, 8000, 27000]
+>>> def mapp(func, li):
+...   return [func(x) for x in li]
+... 
+>>> out = {
+...         1: "one",
+...         2: "two",
+...         3: "three",
+...         4: "four",
+...         5: "five"
+...     }
+>>> out[1]
+'one'
+>>> out[2]
+'two'
+>>> out[7]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 7
+>>> out.keys()
+[1, 2, 3, 4, 5]
+>>> dir(out)
+['__class__', '__cmp__', '__contains__', '__delattr__', '__delitem__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__gt__', '__hash__', '__init__', '__iter__', '__le__', '__len__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setitem__', '__sizeof__', '__str__', '__subclasshook__', 'clear', 'copy', 'fromkeys', 'get', 'has_key', 'items', 'iteritems', 'iterkeys', 'itervalues', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values', 'viewitems', 'viewkeys', 'viewvalues']
+>>> out.viewkeys
+<built-in method viewkeys of dict object at 0x7f3a38b5a6e0>
+>>> out.viewkeys()
+dict_keys([1, 2, 3, 4, 5])
+>>> out.has_key
+<built-in method has_key of dict object at 0x7f3a38b5a6e0>
+>>> out.has_key()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: has_key() takes exactly one argument (0 given)
+>>> out.has_key(1)
+True
+>>> out.get(1)
+'one'
+>>> out[1]
+'one'
+>>> out[7]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 7
+>>> out.get(7)
+>>> help(out.get)
+
+>>> 
+>>> def square_gen(a):
+...     yield a*a
+... 
+>>> sqaure_gen
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'sqaure_gen' is not defined
+>>> square_gen
+<function square_gen at 0x7f3a369e16e0>
+>>> square_gen(10)
+<generator object square_gen at 0x7f3a36b17820>
+>>> (i for i in [1,2,3])
+<generator object <genexpr> at 0x7f3a36b17870>
+>>> w = (i for i in [1,2,3])
+>>> list(w)
+[1, 2, 3]
+>>> w = (i for i in [1,2,3])
+>>> w
+<generator object <genexpr> at 0x7f3a36b17870>
+>>> w.next()
+1
+>>> w.next()
+2
+>>> w.next()
+3
+>>> w.next()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+StopIteration
+>>> w.next()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+StopIteration
+>>> w = (i for i in [1,2,3])
+>>> for i in w:
+...   print 'i', i
+... 
+i 1
+i 2
+i 3
+>>> ([1,2,3])
+[1, 2, 3]
+>>> type(([1,2,3]))
+<type 'list'>
+>>> type(([1,2,3]),)
+<type 'list'>
+>>> a = ([1,2,3])
+>>> type(a)
+<type 'list'>
+>>> a = (1,2,3)
+>>> a
+(1, 2, 3)
+>>> type(a)
+<type 'tuple'>
+>>> 
+>>> dir(__builtins__)
+['ArithmeticError', 'AssertionError', 'AttributeError', 'BaseException', 'BufferError', 'BytesWarning', 'DeprecationWarning', 'EOFError', 'Ellipsis', 'EnvironmentError', 'Exception', 'False', 'FloatingPointError', 'FutureWarning', 'GeneratorExit', 'IOError', 'ImportError', 'ImportWarning', 'IndentationError', 'IndexError', 'KeyError', 'KeyboardInterrupt', 'LookupError', 'MemoryError', 'NameError', 'None', 'NotImplemented', 'NotImplementedError', 'OSError', 'OverflowError', 'PendingDeprecationWarning', 'ReferenceError', 'RuntimeError', 'RuntimeWarning', 'StandardError', 'StopIteration', 'SyntaxError', 'SyntaxWarning', 'SystemError', 'SystemExit', 'TabError', 'True', 'TypeError', 'UnboundLocalError', 'UnicodeDecodeError', 'UnicodeEncodeError', 'UnicodeError', 'UnicodeTranslateError', 'UnicodeWarning', 'UserWarning', 'ValueError', 'Warning', 'ZeroDivisionError', '_', '__debug__', '__doc__', '__import__', '__name__', '__package__', 'abs', 'all', 'any', 'apply', 'basestring', 'bin', 'bool', 'buffer', 'bytearray', 'bytes', 'callable', 'chr', 'classmethod', 'cmp', 'coerce', 'compile', 'complex', 'copyright', 'credits', 'delattr', 'dict', 'dir', 'divmod', 'enumerate', 'eval', 'execfile', 'exit', 'file', 'filter', 'float', 'format', 'frozenset', 'getattr', 'globals', 'hasattr', 'hash', 'help', 'hex', 'id', 'input', 'int', 'intern', 'isinstance', 'issubclass', 'iter', 'len', 'license', 'list', 'locals', 'long', 'map', 'max', 'memoryview', 'min', 'next', 'object', 'oct', 'open', 'ord', 'pow', 'print', 'property', 'quit', 'range', 'raw_input', 'reduce', 'reload', 'repr', 'reversed', 'round', 'set', 'setattr', 'slice', 'sorted', 'staticmethod', 'str', 'sum', 'super', 'tuple', 'type', 'unichr', 'unicode', 'vars', 'xrange', 'zip']
+>>> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>> def ran(e, s=0, st=1):
+...   out = [s]
+...   bol = 1
+...   while bol:
+...     if s < e:
+...       s+=1
+...       out.append(s)
+...     else:
+...       bol = 0
+...   return out
+... 
+>>> ran(10)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+>>>   return out
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>> ran(10)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+>>> 
+>>> ran(10)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+>>> def a(q,e,r):
+...   print q, e, r
+... 
+>>> a(10)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: a() takes exactly 3 arguments (1 given)
+>>> a(10, 20, 30)
+10 20 30
+>>> a([10, 20, 30])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: a() takes exactly 3 arguments (1 given)
+>>> a(*[10, 20, 30])
+10 20 30
+>>> def a(*u):
+...   print u
+... 
+>>> w = 20
+>>> w
+20
+>>> w, x = 20, 30
+>>> 
+>>> w
+20
+>>> x
+30
+>>> w = 20, 30
+>>> w
+(20, 30)
+>>> range()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: range expected at least 1 arguments, got 0
+>>> "credo"
+'credo'
+>>> "credo"[::-1]
+'oderc'
+>>> reversed('credo)
+  File "<stdin>", line 1
+    reversed('credo)
+                   ^
+SyntaxError: EOL while scanning string literal
+>>> reversed('credo')
+<reversed object at 0x7f3a36b1ad50>
+>>> str(reversed('credo'))
+'<reversed object at 0x7f3a36b1acd0>'
+>>> list(reversed('credo'))
+['o', 'd', 'e', 'r', 'c']
+>>> "credo"[::-1]
+'oderc'
+>>> 
+>>> a = range(10)
+>>> a
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> w = []
+>>> for i in a:
+...   w.append(i)
+... 
+>>> w
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> w = []
+>>> for i in a:
+...   w.insert(0, i)
+... 
+>>> w
+[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+>>> a = "credo"
+>>> a[::-1]
+'oderc'
+>>> s = ''
+>>> for i in s:
+...   s = "%s%s"%(s,'')
+... 
+>>> s
+''
+>>> for i in s:
+...   s = "%s%s"%('', s)
+... 
+>>> s
+''
+>>> for i in s:
+...   print 'i', i
+...   
+... 
+>>> for i in a:
+...   s = "%s%s"%(s,'')
+... 
+>>> s
+''
+>>> for i in a:
+...   s = "%s%s"%(i,s)
+... 
+>>> s
+'oderc'
+>>> s = ''
+>>> for i in a:
+...    print i, s
+...    s = "%s%s"%(i,s)
+... 
+c 
+r c
+e rc
+d erc
+o derc
+>>> 
+>>> 
+>>> w
+[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+>>> ''.join(w)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: sequence item 0: expected string, int found
+>>> ''.join(w)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: sequence item 0: expected string, int found
+>>> a
+'credo'
+>>> a.split()
+['credo']
+>>> a.split('')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: empty separator
+>>> a.split(' ')
+['credo']
+>>> a.split(',')
+['credo']
+>>> a = ['c','r','e','d','o'])
+  File "<stdin>", line 1
+    a = ['c','r','e','d','o'])
+                             ^
+SyntaxError: invalid syntax
+>>> a = ['c','r','e','d','o']
+>>> a
+['c', 'r', 'e', 'd', 'o']
+>>> ''.join(a)
+'credo'
+>>> 

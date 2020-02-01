@@ -1,0 +1,163 @@
+False = 1
+first name = 'credo'
+first-name = 'credo'
+first = 1
+name = 2
+first-name
+first_name = 'credo'
+firstName = 'credo'
+1 & 2
+first&name = 'credo'
+1 | 2
+s = 'credo system'
+type(s)
+s = 'credo system
+s = "credo system
+s = "credo system"
+s = '''credo systemz
+welcomes you all!
+'''
+s
+for i s:
+for i in s:
+  print(i)
+dir(s)
+help(s.replace)
+s
+s.count('s')
+s.replace('s', 'S')
+s.replace('s', '*')
+s.replace('s', '*', 2)
+s
+help(s.replace)
+s = s.replace('s', '*', 2)
+s
+s.replace('s', '*', 2)
+s
+s.replace('s', '*', 2)
+s
+s[0]
+s = 'credo'
+len(s)
+s[0]
+s[5]
+a
+s
+s[4]
+s
+s = "credo system welcomes you all!"
+s
+s[len(s)-1]
+dir(s)
+s.index('!')
+s
+s[-1]
+s.index('!')
+s[-2]
+s
+s[0]
+s[0:10]
+s[10:20]
+s[10:20:1]
+s[10:20:2]
+s[::]
+s[::2]
+s = "1234567890"
+s
+s[0]
+s[0:]
+s[0::]
+s[::]
+s[::2]
+s[::5]
+s = "credo system welcomes you all!"
+s
+s[20]
+len(20)
+len(s)
+s
+s[20]
+s[30]
+s[:30]
+s[::]
+s[-1:-5]
+s[-1]
+s[-1:]
+s[-1:-5:-1]
+s[-1:5:]
+s[-1:5:-1]
+s[-1:0:-1]
+s[-1:5:]
+s[-1:-5:]
+s[-1:-5:-1]
+s
+s[-1:5:]
+s[-1:5:5]
+s[-1:-5:-1]
+s[-1:-5:-2]
+s
+s[:-5:-2]
+s[::-1]
+s[::1]
+s[::-1]
+a = 10
+a/5
+a
+s
+dir(s);
+help(s.find)
+import readline
+readline.write_history_file('/home/mohideen/Desktop/pyScript/2019_06_23Datatypes.txt')
+s[:]
+s = ss.replace('s', ':')
+s = s.replace('s', ':')
+s
+s = ss.replace('s
+s="credo's"
+s
+s='creo's'
+l = []
+s
+l = [s, 's']
+l
+l[0]
+len(l)
+len(l[0])
+l[0]
+type(l[0])
+type(l)
+l
+dir(l)
+help(l.append)
+l
+l.append('antony')
+l
+len(l)
+dir(l)
+help(l.insert)
+l
+l.insert(2, 'catherin')
+l
+len(l)
+dir(l)
+l
+l.append([1,2,3,4])
+l
+help(l.extend)
+len(l)
+del l[4]
+l
+l.extend([1,2,3,4])
+l
+len(l)
+tuple
+tuple(l)
+t  = tuple(l)
+t
+dir(__builtins__)
+t  = tuple(l)
+t
+l
+dir(l)
+dir(t)
+readline.write_history_file('/home/mohideen/Desktop/pyScript/2019_06_23Datatypes.txt')

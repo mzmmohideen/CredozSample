@@ -1,0 +1,12 @@
+[
+	{
+		"name": "credo",
+		"age": 10,
+		"address": "velachery"		
+	},
+	{
+		"name": "system",
+		"age": 5,
+		"address": "omr"		
+	}
+]

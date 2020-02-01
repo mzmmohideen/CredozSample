@@ -1,0 +1,240 @@
+a = 10
+A
+A = 100
+a
+if = 10
+If = 10
+if 10
+if 10:
+  1
+if 10:
+ pass
+1 & 2
+1 | 2
+1 or 2
+1 and 2
+1 | 2
+1 or 2
+1 and 2
+bool(1) and 2
+bool(1) and bool(2)
+help(bool)
+help(1)
+bool(1)
+bool(0)
+1 or 2
+bool(1) or bool(0)
+bool(1) and bool(0)
+bool(1) and bool(2)
+is
+a = 10
+b = 10
+b = 10.0
+a
+b
+a == b
+a is b
+a is int(b)
+id(10)
+id(a)
+id(b)
+'b' in 'balaji'
+if 'b' in 'balaji':
+  print 'exist'
+a  = "hi hello
+a  = "hi hello \
+how are you"
+a
+a  = """hi hello 
+how are you
+"""
+a
+type(a)
+a = 10; b = 20;
+[i for in range(10)]
+[i for i in range(10)]
+range(10)
+[i for i in range(10)]
+{i for i in [1,2,3,4,5]}
+{'a': 1, 'b':2, 'a'; 3}
+{'a': 1, 'b':2, 'a': 3}
+d = {'a': 1, 'b':2, 'a': 3}
+d
+d['c'] = 10
+d
+d['a'] = 10
+d
+{e for e in d}
+{e:1 for e in d}
+{e:d[e] for e in d}
+{e[0]:e[1] for e in d.items()}
+d.items()
+d.items()[0]
+k, v = d.items()[0]
+k
+v
+d.items()[0]
+d.items()[0][0]
+d.items()[0][1]
+{e[0]:e[1] for e in d.items()}
+{k:v for k, v in d.items()}
+l
+l = range(10, 20)
+;l
+l
+enumerate(l)
+dict(enumerate(l))
+{i for i in l}
+{i[0]:i[1] for i in enumerate(l)}
+{k:v for k, v in enumerate(l)}
+dict(enumerate(l))
+list(enumerate(l))
+help(enumerate)
+[i for i in enumerate(l)]
+list(enumerate(l))
+enumerate(l)
+tuple(enumerate(l))
+type(enumerate(l))
+help(enumerate)
+list(enumerate(l))
+list(enumerate(l))[0]
+k, v = list(enumerate(l))[0]
+k
+v
+d = {'apple': 10, 'orange': 20, 'banana': 30, 'pineapple': 40, 'papaya': 60}
+d
+{i:j for i,j in d.items()}
+{i:j for i,j in d.items() if j}
+{i:j for i,j in d.items() if not j}
+{i:j for i,j in d.items() if j > 30}
+{i:j for i,j in d.items() if i > 30}
+i
+'papaya' > 30
+'papaya' < 30
+import sys
+sys.getsizeof('papaya')
+sys.getsizeof('a')
+'a' < 38
+'a' > 38
+'papaya' > 50
+'papaya' > 60
+sys.getsizeof('papaya')
+sys.getsizeof('papaya') > 40
+sys.getsizeof('papaya') > 60
+'a' < 38
+'a' < 37
+'a' > 37
+'a' > 39
+{i:j for i,j in d.items() if j > 30}
+{i:j for i,j in d.items() if 'e' in i}
+{i:j for i,j in d.items() if 'e' not in i}
+d
+e 
+e = 'a'
+e
+{i:j for i,j in d.items() if e in i}
+{i:j for i,j in d.items() if eval('a') in i}
+a
+del a
+a
+{i:j for i,j in d.items() if eval('a') in i}
+l
+10 in l
+1 in 'credo'
+eval('a')
+a = 10
+eval('a')
+{i:j for i,j in d.items() if eval('a') in i}
+10 in 'banana'
+10 in list('banana')
+list('banana')
+10 in list('banana')
+'banana10'
+10 in 'banana10'
+10 in list('banana10')
+list('banana10')
+'banana 10'.split(' ')
+10 in 'banana 10'.split(' ')
+'10' in 'banana 10'.split(' ')
+{i:j for i,j in d.items() if eval('a') in i}
+{i:j for i,j in d.items() if 'a' in i}
+l = [ 10, 20, 30 ]
+l
+for i in l
+for i in l:
+print i
+for i in l:
+ print i
+ 
+for i in l:
+  l[i] = "credo10"
+  
+a = 0
+for i in l:
+  l[a] = "credo10"
+  a+=1
+l
+'10' in l[0]
+'10' in l
+set()
+set([i for in range(10)])
+set([i for i ypeError: 'in <string>' requires string as left operand, not intn range(10)])
+>>> a
+set([i for i in range(10)])
+set([i for i in [1,2,3,4,12,1,1,1,2,3,4,5]])
+set((i for i in [1,2,3,4,12,1,1,1,2,3,4,5]))
+s = set((i for i in [1,2,3,4,12,1,1,1,2,3,4,5]))
+s[0]
+s
+list(s)
+s = set((i for i in [1,2,3,4,12,1,1,1,2,3,4,5]))
+set((i for i in [1,2,3,4,12,1,1,1,2,3,4,5]))
+set([1,2,3,4,12,1,1,1,2,3,4,5])
+set((i for i in [1,2,3,4,12,1,1,1,2,3,4,5] if i > 4))
+{i:j for i,j in d.items() if j > 30}
+{i for i,j in d.items() if j > 30}
+(i for i in range(10))
+list((i for i in range(10)))
+range(10)
+help(range)
+help(xrange)
+xrange(10)
+list(xrange(10))
+l = range(10)
+x = xrange(10)
+l
+x
+sys.getsizeof(l)
+sys.getsizeof(x)
+x
+list(x)
+dir(x)
+dir(l)
+help(map)
+help('def')
+dir(__builtins__)
+d
+k = d.keys()
+k
+v = d.values()
+v
+w = {}
+for i, key in enumerate(k):
+   w[key] = v[i]
+w
+k
+[i for i in enumerate(k)]
+del w
+w
+w = {}
+for i, key in enumerate(k):
+   print "my dict before", w
+   w[key] = v[i]
+   print "my dict after", w
+zip
+zip(k, v)
+dict(zip(k, v))
+{key: v[i] for i, key in enumerate(k)}
+import readline
+dir(readline)
+readline.write_history_file('/home/mohideen/Desktop/pyScript/comprehension.txt')

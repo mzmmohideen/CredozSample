@@ -1,0 +1,223 @@
+a = 10
+type(a)
+a/2
+a
+a = a/2
+a
+dir(a)
+1-2
+'1'-'2'
+dir('1')
+'1'+'2'
+dir('1')
+float
+f = 1.5
+float(a)
+float('a')
+f = float(a)
+f
+f/2
+f
+dir(f)
+f.real
+f.imag
+f.is_integer
+f.is_integer()
+(5.5).is_integer()
+help(f.is_integer)
+help(f.real)
+help(f.is_integer)
+help(f.real)
+s = str(a)
+s
+s = str(f)
+s
+s = "credo"
+type(s)
+dir(s)
+s = 'don't'
+s = "don't"
+s
+s = 'don"t'
+s
+s = "don't"
+s
+""" """
+''' '''
+s = "don
+s = """
+Hi Hello How are 
+asad
+sad
+"""
+s
+s[0]
+s[1]
+s[len(s)]
+s[len(s)-1]
+s[-1]
+s
+s[-2]
+s[-3]
+dir(s)
+a
+a[0]
+s
+dir(s)
+help(s.capitalize)
+s.capitalize()
+s
+s = s[1:]
+s
+s = s.lower()
+s
+s.capitalize()
+s
+dir(s)
+s.center()
+help(s.center)
+s.center
+s.center(20)
+len(s)
+s.center(40)
+s.center(40, '*')
+dir(s)
+s.index('a')
+''.join
+' '.join(['apple', 'orange', 'mango'])
+s
+s.split()
+s.split('h')
+s
+dir(s)
+s.partition
+s.partition()
+help(s.partition)
+s.strip
+help(s.strip)
+s
+s.strip()
+s.strip('h')
+c  = s.center(40)
+c
+c.strip()
+c.strip('h')
+dir(s)
+s
+help(s.replace)
+s
+s.replace('h', 'H')
+s.replace('h', 'H', 1)
+s.replace('h', 'H', 2)
+s
+l = [1,2,3,s,'s', a, f, 'a', 'f']
+l
+l = [1,2,3,s,'s', a, f, 'a', 'f', d]
+print(d)
+l = [1,2,3,s,'s', a, f, 'a', 'f']
+l
+l = list(s)
+l
+l = list(a)
+l
+l = [1,2,3,s,'s', a, f, 'a', 'f']
+l
+l[0]
+l[1]
+l[3]
+l[0]
+l[0][0]
+l[3]
+l[3][0]
+l[3]
+
+l
+dir(l)
+help(l.append)
+l
+l.append(1000)
+l
+help(l.insert)
+l.insert(1, 'credo')
+l
+l.count(5)
+l.count(2)
+l.count(5.0)
+l.count(3)
+l.count('credo')
+l.reverse()
+l
+l.sort()
+l
+l[0]
+l
+l[0] = 10
+l
+s
+s[0]
+s[0] = 'H'
+t = tuple(l)
+t
+dir(t)
+t[0]
+t[0] = 100
+d 
+d = {'name': 'credo', 'loc': 'chennai'}
+d
+l
+l[0]
+d['name']
+d
+dir(d)
+help(d.pop)
+d
+d.pop('loc')
+d
+d.pop('loc')
+d.pop('loc', 'not exist')
+d['name'] = 'CREDO'
+df
+d
+d['loc'] = 'Chennai'
+d
+d['loc'] = 'chennai'
+d
+d['loc']
+d['loc1']
+d.get
+help(d.get)
+d['loc1']
+d.get('loc1')
+d.get('loc1', 'not exist')
+d.get('loc', 'not exist')
+dir(d)
+d.items()
+d.keys()
+d.values()
+d
+d.update({'name': 'credo system', 'age': 10})
+d
+l
+d
+d = {'loc': 'chennai', 'age': 10, 'name': 'credo system', 'loc': 'velachery'}
+d
+set
+l
+set(l)
+s = {1,2,3}
+type(s)
+s
+dir(s)
+f = frozenset(s)
+f
+dir(f)
+s
+s.update(1)
+s
+s.update([1])
+s
+s.update([1,2,3,4])
+s
+import readline
+readline.write_history_file()
+readline.write_history_file('dataTypes270819.txt')

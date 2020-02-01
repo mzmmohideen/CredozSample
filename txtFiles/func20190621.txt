@@ -1,0 +1,185 @@
+[i*i for i in range(10)]
+def square(i):
+   return i*i
+[square(i) for i in range(10)]
+enumerate(10)
+help(enumerate)
+enumerate(range(10))
+list(enumerate(range(10)))
+len(list(enumerate(range(10))))
+list(enumerate(range(10)))[9]
+list(enumerate(range(10)))[9][0]
+list(enumerate(range(10)))[9][1]
+len(list(enumerate(range(10))))
+list(enumerate(range(10, 100)))[9][1]
+list(enumerate(range(10, 100)))
+l = list(enumerate(range(10, 100)))
+
+[i for i in enumerate(range(10, 100))]
+[v for i, v in enumerate(range(10, 100)) if i in (5, 12, 8, 9)]
+{i:v for i, v in enumerate(range(10, 100)) if i in (5, 12, 8, 9)}
+[(i,v) for i, v in enumerate(range(10, 100)) if i in (5, 12, 8, 9)]
+def while
+def while:
+def while():
+def While():
+def first name():
+def first_name():
+a = 10
+def b():
+  return 10
+c = 10
+a = 10
+def dosomething():
+  b = 20
+c = 30
+a
+c
+b
+del b
+b
+del a
+del c
+del b
+a = 10
+def dosomething():
+  global b
+  b = 20
+c = 30
+a
+b
+c
+dosomething()
+b
+del  b
+def dosomething():
+  b = 20
+  print 'inside', b
+b
+dosomething()
+b
+def dosomething():
+   print a, c
+dosomething()
+def dosomething():
+   a = 100
+   print 'inside', a
+a
+dosomething()
+a
+def dosomething():
+  global a
+def dosomething():
+   print 'outside', a
+   global a
+   a = 100
+   print 'inside', a
+def dosomething():
+   global a
+   a = 100
+   print 'inside', a
+a
+dosomething()
+a
+a = 10
+id(a)
+def dosomething():
+   a = 100
+   print 'inside', id(a)
+dosomething()
+id(a)
+def dosomething():
+   print 'inside', id(a)
+dosomething()
+def dosomething():
+   a = 10
+   print 'inside', id(a)
+dosomething()
+id(10)
+def dosomething():
+   global a
+   print id(a)
+   a = 100
+   print 'after', id(a)
+id(a)
+dosomething()
+id(a)
+def square(num):
+   print num * num
+square(10)
+s  = square(10)
+s
+square('10')
+def square(num):
+  if num.isdigit():
+    print num * num
+  else:
+    print 'input format was wrong!'
+square('10')
+def square(num):
+type(1)
+help(isinstance)
+def square(num):
+   if isinstance(num, int):
+    print num * num
+   else:
+    print 'input format was wrong!'
+square('10')
+def square(num):
+  try:
+    print num * num
+  except Exception err:
+def square(num):
+  try:
+    print num * num
+  except Exception as err:
+    print 'err', err
+square('10')
+s  = square('10')
+s
+def square(num):
+  try:
+    return num * num
+  except Exception as err:
+    return 'err', err
+s  = square('10')
+s
+s  = square(10)
+s
+def sum(a, b):
+  return a + b
+sum(10, 2)
+sum(10, 2, 20)
+sum(10)
+sum()
+def a():
+  pass
+a()
+a(1)
+def sum(a, b):
+  return a + b
+sum([10, 20])
+sum([10, 20], 9)
+sum(*[10, 20])
+def sum(*a):
+  print a
+sum()
+sum(1)
+sum(1,2)
+sum(1,2,3)
+def sum(b, *a):
+  print 'b is ', b, 'a is', a
+sum(1,2,3)
+def sum(*a):
+  val = 0
+  for i in a:
+     val+=i
+  return val
+sum(1,2,3,4,5,1,1,2)
+sum
+del sum
+def add(*a):
+  return sum(a)
+add(1,2,3,4,5,1,1,2)
+import readline
+readline.write_history_file('/home/mohideen/Desktop/pyScript/func20190621.txt')

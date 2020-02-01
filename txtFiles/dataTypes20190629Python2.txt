@@ -1,0 +1,311 @@
+a = 10
+a/5
+a
+a = a/5
+a
+a/5
+a
+a = 10
+a/5
+a
+a = 10.5
+a/5
+a
+dir(a)
+a.is_integer()
+s = "credo"
+s
+s[0]
+len(s)
+s[4]
+s[len(s) -1 ]
+s[-1 ]
+s[-2 ]
+s
+dir(s)
+s.find('c')
+help(s.find)
+s = 'malola krishnan'
+s
+s.find('l')
+help(s.find)
+s.find('z')
+s
+len(l)
+len(s)
+s[15]
+s[14]
+s[::]
+s[0::]
+s[-2::]
+s
+s[-2:10:]
+s[-2:10:-1]
+s[::2]
+s
+s[::5]
+s[0:10:-1]
+s
+s[-1:10:-1]
+s[-1::-1]
+s[::-1]
+s[::1]
+s[::-1]
+s[::-1] == s
+m = 'madam'
+m[::-1] == m
+s[-1:0:-1]
+s
+s[-1::-1]
+s[::-1]
+s
+dir(s)
+s.count('l')
+help(s.count)
+help(s.endswith)
+s.endswith('n')
+s.endswith('m')
+s
+dir(s)
+help(s.replace)
+s.replace('l', 'L')
+s.replace('l', 'L', 1)
+s
+help(s.replace)
+s
+v = "who's"
+v
+v = 'who's'
+v = "who's"
+v
+v = "Hello
+v = """Hello
+welcomes you all!
+chennai
+adf
+asd
+"""
+v
+v[0]
+v[5]
+for i in v:
+  print i
+v
+help(v)
+help('')
+dir('')
+s
+s*3
+dir('')
+dir(s)
+dir(1)
+dir('')
+s.center
+help(center)
+help('center')
+center = 10
+help(center)
+help([].pop)
+help(hash)
+dir(__builtins__)
+int
+help('float')
+float('1')
+a = '1'
+type(a)
+float(a)
+a = 1
+type(a)
+float(a)
+type(a)
+a=float(a)
+type(a)
+int('abcd')
+int('1')
+a
+name = 'credo'
+dir(name)
+name.isdigit()
+help([].pop)
+a = []
+help(a.pop)
+s
+help(s.center)
+s
+name = 'malola krishnan'
+len(name)
+name.center()
+help(s.insert)
+help([].insert)
+[].insert1()
+name.center()
+[].insert()
+name.center()
+name.center(50)
+len(name.center(50))
+name.center(50, "*")
+l = []
+l= [1, 2, 3, 4, name, 'name', {}, ()]
+name
+l
+l[0]
+l[-1]
+len(l)
+l[8]
+l[7]
+l[0:5]
+l[0:5:2]
+l[0]
+type(l[0])
+type(l[1])
+type(l[4])
+l[0][0]
+dir([])
+dir(name)
+dir(1)
+1[0]
+l
+type(l)
+type(l[0])
+l[0]
+l[0][0]
+l[4]
+type(l[4])
+l[4][0]
+len(l[4])
+l
+l.append('')
+l
+l[-1]
+l[-1][0]
+l.append('j')
+l
+l[-1]
+type(l[-1])
+l[-1][0]
+l[-1][1]
+l[-1]
+l[-1][0]
+l[4]
+l[4][0]
+l[4][::-1]
+l
+dir(l)
+l
+help(l.append)
+l.append('credo')
+l
+len(l)
+l.pop()
+l
+len(l)
+l.pop(0)
+l
+len(l)
+l.insert
+help(l.insert)
+l
+l.insert(4, 'credo')
+l
+len(l)
+help(l.insert)
+l
+l.remove
+help(l.remove)
+l
+l.append(2)
+l.append([3,4])
+l
+l.extend
+help(l.extend)
+l
+l.extend([3,4])
+l
+l.extend(l[0:3])
+l
+l = [2, 3, 4, 'malola krishnan', 'credo', 'name', {}, (), '', 'j']
+l
+l.extend([1,2,3,4])
+l
+l.append([1,2,3,4])
+l
+l.pop()
+len(l)
+l
+l.append([1,2,3,4])
+len(l)
+l.pop()
+l
+l.extend([1,2,3,4])
+len(l)
+l
+l.count(1)
+l.count(2)
+l.remove(2)
+l
+help(l.remove)
+l.remove(20)
+l.remove(1)
+l
+l.remove(1)
+l
+l.remove(1)
+l.remove('credo')
+l
+l[2]
+l[2][::-1]
+l
+l[2] = l[2][::-1]
+l
+name
+name[2]
+name[2] = 'A'
+range(100)
+[i for i in range(100) if i%2==0]
+range
+print
+help('print')
+print 1
+print (1)
+print(1)
+help('print')
+print 1,2
+range(10)
+help(range)
+range(10)
+range(10, 20)
+range(0, 101, 5)
+import sys
+sys.getsizeof
+l = range(0, 101, 5)
+l
+sys.getsizeof(l)
+help(range)
+l
+for i in l:
+  print(i)
+xrange
+help(xrange)
+xrange(1, 100, 5)
+list(xrange(1, 100, 5))
+l = raw_input("Enter you name:")
+antony
+l
+help('raw_input')
+l = raw_input("Enter you Age:")
+10
+l
+type(l)
+help('input')
+eval('1')
+l = input("Enter you Age:")
+10
+l
+l = input("Enter you name:")
+antony
+antony = 10
+l = input("Enter you name:")
+antony
+l
+import readline
+readline.write_history_file('/home/mohideen/Desktop/pyScript/txtFiles/dataTypes20190629Python2.txt')

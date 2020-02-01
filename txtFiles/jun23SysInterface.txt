@@ -1,0 +1,55 @@
+import psutil
+psutil.process_iter
+psutil.process_iter()
+list(psutil.process_iter())
+psutil.process_iter()
+[i for i in psutil.process_iter()]
+[i for i in psutil.process_iter() if 'skype' in i.name]
+[i for i in psutil.process_iter() if 'skype' in i.name()]
+len([i for i in psutil.process_iter() if 'skype' in i.name()])
+[i.kill() for i in psutil.process_iter() if 'skype' in i.name()]
+[i.name() for i in psutil.process_iter()]
+totproc = [i.name() for i in psutil.process_iter()]
+uniq = set(totproc)
+uniq
+proc = {}
+for i in uniq:
+   proc[i] = totproc.count(i)
+proc
+os.path
+import os
+os.path
+dir(os.path)
+os.abspat
+os.abspath
+os.path.abspath
+os.path.abspath()
+os.path.abspath('')
+os.getcwd()
+os.path.join(os.getcwd(), 'samp.txt')
+os.path.seq
+os.path.sep
+os.path.abspath() + os.path.sep + 'samp.txt'
+os.path.abspath('') + os.path.sep + 'samp.txt'
+dir(os.path)
+os.path.relpath()
+os.path.relpath('')
+os.path.relpath(os.path.abspath(''))
+dir(os.path)
+os.path.splitext('sam.txt')
+os.path.splitext('sam')[1]
+f = os.listdir('')
+f = os.listdir(os.getcwd())
+f
+help(os.listdir)
+f = os.listdir(os.getcwd())
+f
+_file = [i for i in f if os.path.isfile(i)]
+_file
+len(f)
+len(_file)
+_dir = [i for i in f if os.path.isdir(i)]
+_dir
+len(_dir)
+import readline
+readline.write_history_file('/home/mohideen/Desktop/pyDocs/txtFiles/jun23SysInterface.txt')

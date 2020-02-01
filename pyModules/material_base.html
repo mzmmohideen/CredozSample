@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>{% block title %} {% endblock %}</title>
+        {% block css %}
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+            <link rel="stylesheet" href="{% static 'materialize/css/materialize.min.css' %}">
+            <link rel="stylesheet" href="{% static 'material_icons/material-icons.css' %}">
+            <link rel="stylesheet" href="{% static 'fontawesome/css/font-awesome.min.css' %}"/>
+            <link rel="stylesheet" href="{% static 'styles.css' %}">
+            <link rel="stylesheet" href="{% static 'common_css/materialize_navbar.css' %}">
+        <style>
+            #page-overlay {
+                display: block;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.15);
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: 99999;
+            }
+        </style>
+
+    {% endblock %}
+    {% block extra_head_incl %}
+    {% endblock %}
+</head>
+<body>
+<div id="page-overlay"></div>
+{% block nav_bar %}
+    {% include 'materialize_navbar.html' %}
+{% endblock %}
+{% block content %}
+{% endblock %}
+{% block base_scripts %}
+    <script src="{% static 'materialize/js/materialize.min.js' %}"></script>
+    <script type="text/javascript">
+        // setup the page
+        var root,
+        indexOf = [].indexOf;
+        root = typeof exports !== "undefined" && exports !== null ? exports : this;
+        root.set_apiroot = function(apiroot, app_location) {
+            root.api_root = apiroot;
+            root.app_location = app_location;
+            return true;
+        };
+        root.set_apiroot('{{ APIROOT }}', '{{ APP_LOCATION }}');
+    </script>
+{% endblock %}
+{% block extra_scripts %}
+{% endblock %}
+</body>
+</html>

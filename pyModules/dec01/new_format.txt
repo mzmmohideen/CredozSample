@@ -1,0 +1,144 @@
+input
+i = raw_input()
+10
+ii = eval(i)
+type(i)
+type(ii)
+eval('credo')
+credo = 10
+eval('credo')
+i = input()
+sam
+help(range)
+a = range(100
+)
+sys
+import sys
+sys.getsizeof(a)
+a = xrange(100)
+sys.getsizeof(a)
+a
+range(10)
+range(10, 30)
+range(10, 30, 5)
+a
+l
+a = [1,2,3,4,5,6,7]
+a[0]
+a[5]
+a[-1]
+a[7]
+a[6]
+a[0:4]
+a = range(10, 20)
+a
+a[0:4]
+a[0]
+a[0:]
+a[0::]
+a[0::2]
+a[0::1]
+a[0:-1:1]
+a[-1]
+a[-1:]
+a[-1:-5]
+a[-1:-5:-1]
+a[-1::-1]
+a[::-1]
+s
+s = 'credo'
+s[::-1]
+s[::-1] == s
+'Its a palindrome' if s[::-1] == s
+'Its a palindrome' if s[::-1] == s else 'Its not a palindrome'
+s = 'malayalam'
+'Its a palindrome' if s[::-1] == s else 'Its not a palindrome'
+a
+stu
+st = {'age': 20, 'name': 'sakthi', 'address': 'chennai'}
+str(st)
+list(st)
+l
+l = list(st)
+l
+dict(l)
+l = [('age',20), ('name', 'sam'), ('address', 'chennai')]
+type(l)
+dict(l)
+enumerate
+enumerate(l)
+list(enumerate(l))
+l = list(st)
+print(l)
+list(enumerate(l))
+l.index
+help(l.index)
+l = l+l
+l
+l.index('age')
+list(enumerate(l))
+dict(enumerate(l))
+'0a'
+dir(st)
+st
+help(st.pop)
+ar.pop('a')
+st.pop('a')
+st.pop('a', 'not exist')
+st.pop('age', 'not exist')
+st
+st.update({'age': 20, 'name': 'sakthi', 'address': 'chennai'})
+print(st)
+st.update({'age': 20, 'name': 'sakthi', 'address': 'velachery'})
+st
+st.items()
+%s
+"%s"
+"%s" 
+"%s" %()
+"%s" %(1)
+"%s" % (1)
+l
+str(l)
+"%s"%(l)
+"".format
+"{}".format(a)
+"{}".format(20, 10)
+"%s"%(20, 10)
+"{}".format()
+"{}".format(a=1)
+"{a}".format(a=1)
+"{b}".format(a=1)
+"{}".format(a=1)
+"{}".format(1)
+"{a}".format(1)
+"{a}".format(a=1)
+"{}".format(1, 2)
+"{} {} {}".format(1, 2)
+"{}".format([1, 2])
+a = [1,2]
+a
+"{}".format(a)
+"{} {}".format(a)
+"{} {}".format([1,2])
+"{} {}".format(*[1,2])
+"{} {}".format(*[1,2 , 3])
+"{2} {1}".format(*[1,2 , 3])
+"{2} {1}".format([1,2 , 3])
+"{2} {1}".format(*[1,2, 3])
+"{2} {1}".format(1,2, 3)
+"{}".format(st)
+st
+"{} {}".format({'a':1})
+"{0} {0}".format({'a':1})
+"{0} {0}".format({'a':1, 'b': 2})
+"{0} {0}".format(*{'a':1, 'b': 2})
+list(st)
+list({'a':1, 'b':2})
+"{0} {0}".format(**{'a':1, 'b': 2})
+"{a} {b}".format(**{'a':1, 'b': 2})
+"{aa} {b}".format(**{'a':1, 'b': 2})
+"{b} {a}".format(**{'a':1, 'b': 2})
+"{b} {a}".format(a=1,b=2)
+import readline
+readline.write_history_file('/home/mohideen/Desktop/pyDocs/pyModules/dec01/new_format.txt')
